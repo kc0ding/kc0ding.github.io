@@ -1,12 +1,2073 @@
+
+
+
+
+
+
+
+
+
+
+
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
 <head>
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Portfolio</title>
-</head>
-<body>
-  <p>Hello, World!</p>
+<!-- HEAD INCLUDE START -->
+
+
+
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>개인정보 포털</title>
+
+<link rel="icon" type="image/x-icon" href="/favicon.ico?Ver=20210420" />
+<link rel="shortcut icon" type="image/x-icon" href="/assets/img/sub/favicon.ico?Ver=20210420" />
+<link rel="icon" href="/assets/img/sub/favicon.ico?Ver=20210420" />
+<link rel="stylesheet" href="/assets/js/jquery/jquery-ui.css?Ver=20210420" />
+<link rel="stylesheet" href="/assets/js/selectric/selectric.css?Ver=20210420" />
+<link rel="stylesheet" href="/assets/js/swiper/swiper.min.css?Ver=20210420" >
+<link rel="stylesheet" href="/assets/js/scrollbar/jquery.scrollbar.css?Ver=20210420">
+<link rel="stylesheet" href="/assets/css/oneCommon.css?Ver=20210420" type="text/css" />
+<link rel="stylesheet" href="/assets/css/oneStyle.css?Ver=20210420" type="text/css" />
+<script src="/assets/js/jquery/jquery.min.js?Ver=20210420"></script>
+<script src="/assets/js/jquery/jquery-ui.min.js?Ver=20210420"></script>
+<script src="/js/jquery.cookie.js?Ver=20210420"></script>
+<script src="/assets/js/selectric/jquery.selectric.min.js?Ver=20210420"></script>
+<script src="/assets/js/scrollbar/jquery.scrollbar.min.js?Ver=20210420"></script>
+<script src="/assets/js/swiper/swiper.min.js?Ver=20210420"></script>
+<script src="/assets/js/oneScript.js?Ver=20210420"></script>
+<script src="/js/common.js?Ver=20210422"></script>
+<script src="/js/cmmnIdnttVrfct.js?Ver=20220420"></script>
+<script src="/js/UserScriptConf.js?Ver=20210420" ></script>
+<script src="/js/postbox.js?Ver=20210420" ></script>
+<style>
+    
+    #privacyAiPanel  {background-color: #037CC2 !important; background: #037CC2 !important;}
+    #privacyAiPanel button:focus {border: 2px solid #fff; outline: dashed #ff6308 !important;}
+    #privacyAiPanel a:focus {outline: solid #ff6308 !important;}
+    
+    #privacyAiPanel .service-list {overflow: visible !important;}
+    #privacyAiPanel .service-list .service-list-inner .service-list-line ul li {overflow: visible !important;}
+    
+    #privacyAiPanel .chat-faq-lists ul li button {width: calc(100% - 4px) !important; margin: 0 2px !important;}
+    
+    
+    #privacyAiPanel .chat-basic .txt-box .report-btn {display: block !important; opacity: 0;}
+    #privacyAiPanel .chat-basic .txt-box .report-btn:focus {opacity: 1;}
+    #privacyAiPanel .chat-basic .txt-box:hover .report-btn {opacity: 1;}
+    
+    .onePrivate > a {display: block;}
+    
+    
+    #privacyAiPanel .font-resize {width: 40px !important; margin-left: 4px; background: url(/assets/img/sub/fontPlus.gif) center no-repeat !important;}
+    #privacyAiPanel .font-resize.on {width: 40px !important; margin-left: 4px; background: url(/assets/img/sub/fontMinus.gif) center no-repeat !important;}
+</style>
+    
+            <!-- start : 콘텐츠 내용 -->
+            <div class="per_rule_wrap"> 
+<div class="panel_box"> 
+<h4 class="tit_f17 txtc">개인정보보호위원회 &lt;개인정보 포털&gt; 개인정보 처리방침</h4> 
+<p class="mgt30"><b>개인정보보호위원회</b>(이하 `개인정보위'라 한다)는 정보주체의 자유와 권리 보호를 위해 <b>「개인정보 보호법」</b> 및 관계 법령이 정한 바를 준수하여, 적법하게 개인정보를 처리하고 안전하게 관리하고 있습니다.</p> 
+<p>이에 <b>「개인정보 보호법」</b> 제30조에 따라 정보주체에게 개인정보 처리에 관한 절차 및 기준을 안내하고, 이와 관련한 고충을 신속하고 원활하게 처리할 수 있도록 하기 위하여 다음과 같이 개인정보 처리방침을 수립 ‧ 공개합니다.</p></div> 
+<div class="label_section"> 
+<h4 class="tit_main txtc">주요 개인정보 처리 표시(라벨링)</h4> 
+<div class="label_wrap mgt30"><a href="#none" class="label_box" title="일반 개인정보 수집" style="border: 1px solid rgb(255, 255, 255);"> <img src="../../assets/img/sub/pi_collect.png" alt="일반 개인정보 수집"> 
+<p class="label_cnt">일반 개인정보 수집</p> 
+<div id="label_layer_0" class="label_layer num0" style="display: none;"> 
+<div class="label_desc_top"> 
+<p>일반 개인정보 수집</p></div> 
+<div class="label_desc_btm"> 
+<p>서비스 별로 수집하는 개인정보 항목이 다릅니다.</p><!-- 220308(s) --> 
+<ul class="desc_wrap"> 
+<li class="desc_box"> 
+<p class="desc_tit">교육</p> 
+<p class="desc_cnt">성명, 생년월일, 전화번호, 중복가입확인정보 등</p></li> 
+<li class="desc_box"> 
+<p class="desc_tit">열람등요구</p> 
+<p class="desc_cnt">성명, 생년월일, 전화번호, 중복가입확인정보 등</p></li> 
+<li class="desc_box"> 
+<p class="desc_tit">유출 신고</p> 
+<p class="desc_cnt">성명, 기관명, 부서, 전화번호 등</p></li> 
+<li class="desc_box"> 
+<p class="desc_tit">전문강사</p> 
+<p class="desc_cnt">성명, 소속, 강의경력, 연락처 등</p></li> 
+<li class="desc_box"> 
+<p class="desc_tit">가명정보 전문가</p> 
+<p class="desc_cnt">성명, 소속, 직위/담당업무, 주요경력 등</p></li> 
+<li class="desc_box"> 
+<p class="desc_tit">정보주체 권리행사</p> 
+<p class="desc_cnt">성명, 생년월일, 전화번호, 중복가입확인정보 등</p></li> 
+<li class="desc_box"> 
+<p class="desc_tit">분쟁조정 신청정보(신청서)</p> 
+<p class="desc_cnt">성명, 생년월일, 전화번호, 전자우편 주소, 주소 등</p></li> 
+<li class="desc_box"> 
+<p class="desc_tit">분쟁조정 신청정보(음성정보)</p> 
+<p class="desc_cnt">전화상담시 (필수) 전화번호, 전화상담내용</p></li> 
+<li class="desc_box"> 
+<p class="desc_tit">포털 서비스 이용정보</p> 
+<p class="desc_cnt">(필수) 성명, 생년월일, 중복가입확인정보(DI), 휴대전화번호</p></li> 
+<li class="desc_box"> 
+<p class="desc_tit">잊힐 권리(지우개) 서비스</p> 
+<p class="desc_cnt">(필수) 성명, 생년월일, 전자우편 주소, 휴대전화번호</p></li> 
+</ul></div></div> </a><a href="#none" class="label_box" title="개인정보의 처리 목적"> <img src="../../assets/img/sub/pi_object.png" alt="개인정보의 처리 목적"> 
+<p class="label_cnt">개인정보 처리목적</p> 
+<div id="label_layer_1" class="label_layer num1"> 
+<div class="label_desc_top"> 
+<p>개인정보 처리목적</p></div> 
+<div class="label_desc_btm"> 
+<p>개인정보 보호법 제32조에 따라 등록&middot;공개하는 개인정보파일의 처리목적은 다음과 같습니다.</p> 
+<ul class="desc_wrap"> 
+<li class="desc_box"> 
+<p class="desc_tit">교육</p> 
+<p class="desc_cnt">교육서비스에 대한 본인인증, 이력관리, 수료증 발급</p></li> 
+<li class="desc_box"> 
+<p class="desc_tit">열람등요구</p> 
+<p class="desc_cnt">개인정보 열람등요구 처리 행정업무의 참고 등</p></li> 
+<li class="desc_box"> 
+<p class="desc_tit">유출 신고</p> 
+<p class="desc_cnt">유출사고 신고 처리 행정업무의 참고 등</p></li> 
+<li class="desc_box"> 
+<p class="desc_tit">전문강사</p> 
+<p class="desc_cnt">개인정보보호 교육지원(강사풀 제공)</p></li> 
+<li class="desc_box"> 
+<p class="desc_tit">가명정보 전문가</p> 
+<p class="desc_cnt">가명정보 안전활용 지원(가명정보 전문가풀 제공)</p></li> 
+<li class="desc_box"> 
+<p class="desc_tit">정보주체 권리행사</p> 
+<p class="desc_cnt">본인 확인 내역 통합 조회, 웹사이트 회원 탈퇴, 개인정보 열람 등 처리 등</p></li> 
+<li class="desc_box"> 
+<p class="desc_tit">분쟁조정 신청정보(신청서)</p> 
+<p class="desc_cnt">분쟁조정사건 사실 확인 및 안건 심의</p></li> 
+<li class="desc_box"> 
+<p class="desc_tit">분쟁조정 신청정보(음성정보)</p> 
+<p class="desc_cnt">분쟁조정사건 사실 확인 및 안건 심의</p></li> 
+<li class="desc_box"> 
+<p class="desc_tit">포털 서비스 이용정보</p> 
+<p class="desc_cnt">포털 서비스 이용내역 통합 조회를 위한 본인확인</p></li> 
+<li class="desc_box"> 
+<p class="desc_tit">잊힐 권리(지우개) 서비스</p> 
+<p class="desc_cnt">잊힐 권리(지우개) 신청서 확인</p></li> 
+</ul></div></div> </a><a href="#none" class="label_box" title="개인정보의 보유기간"> <img src="../../assets/img/sub/pi_period.png" alt="개인정보의 보유기간"> 
+<p class="label_cnt">개인정보의 보유 기간</p> 
+<div id="label_layer_2" class="label_layer num2"> 
+<div class="label_desc_top"> 
+<p>개인정보의 보유 기간</p></div> 
+<div class="label_desc_btm"> 
+<p>각각의 개인정보 처리 및 보유 기간은 다음과 같습니다.</p> 
+<ul class="desc_wrap"> 
+<li class="desc_box"> 
+<p class="desc_tit">교육</p> 
+<p class="desc_cnt txtr">2년</p></li> 
+<li class="desc_box"> 
+<p class="desc_tit">열람등요구</p> 
+<p class="desc_cnt txtr">3년</p></li> 
+<li class="desc_box"> 
+<p class="desc_tit">유출 신고</p> 
+<p class="desc_cnt txtr">준영구</p></li> 
+<li class="desc_box"> 
+<p class="desc_tit">전문강사</p> 
+<p class="desc_cnt txtr">위촉 종료 후 2년</p></li> 
+<li class="desc_box"> 
+<p class="desc_tit">가명정보 전문가</p> 
+<p class="desc_cnt txtr">3년</p></li> 
+<li class="desc_box"> 
+<p class="desc_tit">정보주체 권리행사</p> 
+<p class="desc_cnt txtr">처리 완료 후 30일</p></li> 
+<li class="desc_box"> 
+<p class="desc_tit">분쟁조정 신청정보(신청서)</p> 
+<p class="desc_cnt txtr">5년(조정서 영구)</p></li> 
+<li class="desc_box"> 
+<p class="desc_tit">분쟁조정 신청정보(음성정보)</p> 
+<p class="desc_cnt txtr">6개월</p></li> 
+<li class="desc_box"> 
+<p class="desc_tit">포털 서비스 이용정보</p> 
+<p class="desc_cnt txtr">6개월<br /> (서비스 신청시 연장될 수 있음)</p></li> 
+<li class="desc_box"> 
+<p class="desc_tit">잊힐 권리(지우개) 서비스</p> 
+<p class="desc_cnt txtr">3년<br /></p></li> 
+</ul></div></div> </a><a href="#none" class="label_box" title="개인정보의 제공"> <img src="../../assets/img/sub/pi_supply.png" alt="개인정보의 제공"> 
+<p class="label_cnt">개인정보의 제공</p> 
+<div id="label_layer_3" class="label_layer num3"> 
+<div class="label_desc_top"> 
+<p>개인정보의 제공</p></div> 
+<div class="label_desc_btm"> 
+<p>신청 처리를 위해 피신청인(기관)에 신청인의 개인정보를 제공하고 있습니다.</p> 
+<ul class="desc_wrap"> 
+<li class="desc_box"> 
+<p class="desc_tit">열람등요구</p> 
+<p class="desc_cnt">성명, 생년월일, 전화번호, 주소, 이메일 등</p></li> 
+<li class="desc_box"> 
+<p class="desc_tit">정보주체 권리행사(본인확인 내역조회)</p> 
+<p class="desc_cnt">성명, 생년월일, 전화번호, 주소, 이메일 등</p></li> 
+<li class="desc_box"> 
+<p class="desc_tit">분쟁조정 신청정보</p> 
+<p class="desc_cnt">(신청인&middot;대리인) 성명, 생년월일, 전화번호, 전자우편, 신청내용</p></li> 
+</ul></div></div> </a><a href="#none" class="label_box" title="개인정보 처리위탁"> <img src="../../assets/img/sub/pi_consignment.png" alt="개인정보 처리위탁"> 
+<p class="label_cnt">처리위탁</p> 
+<div id="label_layer_4" class="label_layer num4"> 
+<div class="label_desc_top"> 
+<p>처리위탁</p></div> 
+<div class="label_desc_btm"> 
+<p>원활한 개인정보 업무처리를 위하여 다음과 같이 개인정보 처리업무를 위탁하고 있습니다.</p> 
+<ul class="desc_wrap"> 
+<li class="desc_box"> 
+<p class="desc_tit">위탁처리 기관</p> 
+<p class="desc_cnt">한국인터넷진흥원</p></li> 
+<li class="desc_box"> 
+<p class="desc_tit">위탁처리 수행업체</p> 
+<p class="desc_cnt">㈜조인트리, ㈜유알피시스템, ㈜아이알링크, ㈜씨드젠, 포유시큐리티, 포유시큐리티, ㈜건담앤컴퍼니, ㈜컬처메이커스, 한국CPO포럼, 유피에스데이터(주)</p></li> 
+</ul></div></div> </a><a href="#none" class="label_box" title="고충처리부서"> <img src="../../assets/img/sub/pi_voc.png" alt="고충처리부서"> 
+<p class="label_cnt">고충처리부서</p> 
+<div id="label_layer_5" class="label_layer num5"> 
+<div class="label_desc_top"> 
+<p>고충처리부서</p></div> 
+<div class="label_desc_btm"> 
+<p>개인정보보호 관련 고객 상담 및 신고</p> 
+<ul class="desc_wrap"> 
+<li class="desc_box"> 
+<p class="desc_tit">담당부서</p> 
+<p class="desc_cnt txtr">운영지원과</p></li> 
+<li class="desc_box"> 
+<p class="desc_tit">연락처</p> 
+<p class="desc_cnt txtr">02-2100-3025</p></li> 
+</ul></div></div> </a></div> 
+<p style="margin-left: 1.6rem; color: rgb(255, 120, 23); font-weight: 400;">※ 기호에 마우스 커서를 대시면 세부 사항을 확인할 수 있으며, 자세한 내용은 아래의 개인정보 처리방침을 확인하시기 바랍니다.</p></div> 
+<h4 class="tit_main txtc">목차</h4> 
+<p class=" mgt20">「개인정보 처리방침」은 다음과 같은 내용으로 구성되어 있습니다.</p> 
+<div class="panel_box panel_white pds"> 
+<ul class="cnt_list"> 
+<li><a href="crosseditor.html?ebdi=TWpBeU1NVE1aQVpBWk1lWk1lTT0:#list_num01" title="개인정보의 처리 목적">개인정보의 처리 목적</a></li> 
+<li><a href="crosseditor.html?ebdi=TWpBeU1NVE1aQVpBWk1lWk1lTT0:#list_num02" title="개인정보의 처리 및 보유기간">개인정보의 처리 및 보유기간</a></li> 
+<li><a href="crosseditor.html?ebdi=TWpBeU1NVE1aQVpBWk1lWk1lTT0:#list_num03" title="개인정보파일의 등록 현황 및 처리하는 개인정보의 항목">개인정보파일의 등록 현황</a></li> 
+<li><a href="crosseditor.html?ebdi=TWpBeU1NVE1aQVpBWk1lWk1lTT0:#list_num04" title="개인정보 영향평가 수행 결과">개인정보 영향평가 수행 결과</a></li> 
+<li><a href="crosseditor.html?ebdi=TWpBeU1NVE1aQVpBWk1lWk1lTT0:#list_num05" title="개인정보의 제3자 제공에 관한 사항">개인정보의 제3자 제공에 관한 사항</a></li> 
+<li><a href="crosseditor.html?ebdi=TWpBeU1NVE1aQVpBWk1lWk1lTT0:#list_num06" title="개인정보처리의 위탁에 관한 사항">개인정보처리의 위탁에 관한 사항</a></li> 
+<li><a href="crosseditor.html?ebdi=TWpBeU1NVE1aQVpBWk1lWk1lTT0:#list_num07" title="개인정보의 파기절차 및 파기방법">개인정보의 파기절차 및 파기방법</a></li> 
+<li><a href="crosseditor.html?ebdi=TWpBeU1NVE1aQVpBWk1lWk1lTT0:#list_num08" title="정보주체와 법정대리인의 권리‧의무 및 행사방법에 관한 사항">정보주체와 법정대리인의 권리‧의무 및 행사방법에 관한 사항</a></li> 
+<li><a href="crosseditor.html?ebdi=TWpBeU1NVE1aQVpBWk1lWk1lTT0:#list_num09" title="개인정보의 안전성 확보조치에 관한 사항">개인정보의 안전성 확보조치에 관한 사항</a></li> 
+<li><a href="crosseditor.html?ebdi=TWpBeU1NVE1aQVpBWk1lWk1lTT0:#list_num010" title="자동으로 수집하는 장치의 설치&middot;운영 및 거부에 관한사항">개인정보를 자동으로 수집하는 장치의 설치&middot;운영 및 거부에 관한사항</a></li> 
+<li><a href="crosseditor.html?ebdi=TWpBeU1NVE1aQVpBWk1lWk1lTT0:#list_num11" title="개인정보 보호책임자에 관한 사항">개인정보 보호책임자에 관한 사항</a></li> 
+<li><a href="crosseditor.html?ebdi=TWpBeU1NVE1aQVpBWk1lWk1lTT0:#list_num12" title="개인정보의 열람청구를 접수&middot;처리하는 부서">개인정보의 열람청구를 접수&middot;처리하는 부서</a></li> 
+<li><a href="crosseditor.html?ebdi=TWpBeU1NVE1aQVpBWk1lWk1lTT0:#list_num13" title="정보주체의 권익침해 구제방법">정보주체의 권익침해 구제방법</a></li> 
+<li><a href="crosseditor.html?ebdi=TWpBeU1NVE1aQVpBWk1lWk1lTT0:#list_num14" title="개인정보 보호수준 평가 결과">개인정보 보호수준 평가 결과</a></li> 
+<li><a href="crosseditor.html?ebdi=TWpBeU1NVE1aQVpBWk1lWk1lTT0:#list_num16" title="추가적인 이용&middot;제공 판단 기준">추가적인 이용&middot;제공 판단 기준</a></li> 
+<li><a href="crosseditor.html?ebdi=TWpBeU1NVE1aQVpBWk1lWk1lTT0:#list_num15" title="개인정보 처리방침의 변경에 관한 사항">개인정보 처리방침의 변경에 관한 사항</a></li> 
+</ul></div> 
+<p style="margin-left: 1.6rem; color: rgb(255, 120, 23); font-weight: 400;">※ 목차 클릭 시 해당 본문으로 링크</p> 
+<div class="mid_line"></div> 
+<h4 class="tit_list" id="list_num01"><span class="list_icon"><img src="../../assets/img/sub/img_object.png" alt="개인정보의 처리 목적"></span>개인정보의 처리 목적</h4> 
+<ol class="oneBottomXS"> 
+<li>&#9312; <b>개인정보위</b>는 다음의 목적을 위하여 최소한의 개인정보를 수집하여 처리합니다. 처리하고 있는 개인정보는 다음 목적 이외의 용도로는 이용되지 않으며, 이용 목적이 변경되는 경우에는 ｢개인정보 보호법｣ 제18조에 따라 별도의 동의를 받는 등 필요한 조치를 이행할 예정입니다.</li> 
+<li>&#9313; <b>개인정보위</b>가 개인정보 보호법 제32조에 따라 등록&middot;공개하는 개인정보파일의 처리목적은 다음과 같습니다.</li> 
+</ol> 
+<table class="oneTable"> 
+<caption>개인정보파일 처리목적을 위해 순번, 등록&middot;공개하는 개인정보, 처리목적, 개인정보 처리 사이트를 확인할 수 있는 표입니다.</caption> 
+<colgroup> 
+<col style="width: 30%;"> 
+<col style="width: 25%;"> 
+<col style="width: 45%;"> 
+</colgroup> 
+<thead> 
+<tr> 
+<th scope="col" class="NamoSE_border_show">등록&middot;공개하는 개인정보</th> 
+<th scope="col" class="NamoSE_border_show">처리목적</th> 
+<th scope="col" class="NamoSE_border_show">개인정보 처리 사이트</th> 
+</tr> 
+</thead> 
+<tbody> 
+<tr> 
+<td>교육서비스 제공 사용자 정보</td> 
+<td>개인정보보호 온라인 교육 서비스 제공, 이력관리, 수료증 발급</td> 
+<td>www.privacy.go.kr</td> 
+</tr> 
+<tr> 
+<td>개인정보 열람등요구 처리 사용자 정보</td> 
+<td>공공기관 개인정보 열람등 요구 처리 행정업무의 참고 또는 사실 증명</td> 
+<td>www.privacy.go.kr</td> 
+</tr> 
+<tr> 
+<td>개인정보 열람등요구 처리 사용자 정보(웹사이트)</td> 
+<td>웹사이트 개인정보 열람등 요구 처리</td> 
+<td>www.privacy.go.kr</td> 
+</tr> 
+<tr> 
+<td>유출사고 신고 처리 사용자 정보</td> 
+<td>유출사고 신고 처리 행정업무의 참고 또는 사실 증명</td> 
+<td>www.privacy.go.kr</td> 
+</tr> 
+<tr> 
+<td>개인정보보호 전문강사 명단</td> 
+<td>개인정보보호 교육지원<br /> (강사풀 제공)</td> 
+<td>www.privacy.go.kr</td> 
+</tr> 
+<tr> 
+<td>가명정보 전문가 명단</td> 
+<td>가명정보 안전활용 지원(가명정보 전문가풀 제공)</td> 
+<td>www.privacy.go.kr</td> 
+</tr> 
+<tr> 
+<td>정보주체 권리행사 신청정보<br /> (구 e프라이버시 클린서비스 민원접수 및 처리목록)</td> 
+<td>웹사이트 회원탈퇴 등 민원 처리</td> 
+<td>www.privacy.go.kr<br /> (www.eprivacy.go.kr)</td> 
+</tr> 
+<tr> 
+<td>분쟁조정 신청정보(신청서)</td> 
+<td>개인정보 분쟁조정에 필요한 사실조사 등 업무처리</td> 
+<td>www.privacy.go.kr</td> 
+</tr> 
+<tr> 
+<td>분쟁조정 신청정보(음성정보)</td> 
+<td>개인정보 분쟁조정에 필요한 사실조사 등 업무처리</td> 
+<td>분쟁조정내부관리시스템</td> 
+</tr> 
+<tr> 
+<td>포털 서비스 이용정보(본인인증)</td> 
+<td>포털 서비스 이용내역 통합 조회를 위한 본인확인</td> 
+<td>www.privacy.go.kr</td> 
+</tr> 
+<tr> 
+<td>지우개(잊힐 권리) 서비스 신청자 정보</td> 
+<td>지우개 서비스 과정에서의 본인확인 및 업무처리</td> 
+<td>www.privacy.go.kr</td> 
+</tr> 
+</tbody> 
+</table> 
+<h4 class="tit_list" id="list_num02"><span class="list_icon"><img src="../../assets/img/sub/img_period.png" alt="개인정보의 처리 및 보유기간"></span>개인정보의 처리 및 보유기간</h4> 
+<ol class="oneBottomXS"> 
+<li>&#9312; 개인정보위는 법령에 따른 개인정보 보유‧이용기간 또는 정보주체로부터 개인정보 수집 시에 동의받은 개인정보 보유‧이용기간 내에서 개인정보를 처리하고 보유합니다.</li> 
+<li>&#9313; 각각의 개인정보 처리 및 보유 기간은 다음과 같습니다.</li> 
+</ol> 
+<table class="oneTable"> 
+<caption>개인정보의 처리 및 보유 기간 확인을 위해 순번, 서비스 명칭, 운영근거, 수집항목, 보유기간(목정 달성시)를 확인할 수 있는 표입니다.</caption> 
+<colgroup> 
+<col style="width: 35%;"> 
+<col style="width: 40%;"> 
+<col style="width: 25%;"> 
+</colgroup> 
+<thead> 
+<tr> 
+<th scope="col" class="NamoSE_border_show">서비스 명칭</th> 
+<th scope="col" class="NamoSE_border_show">운영근거</th> 
+<th scope="col" class="NamoSE_border_show">보유기간</th> 
+</tr> 
+</thead> 
+<tbody> 
+<tr> 
+<td>교육서비스 제공 사용자 정보</td> 
+<td>정보주체 동의</td> 
+<td>회원탈퇴시까지</td> 
+</tr> 
+<tr> 
+<td>개인정보 열람등요구 처리 사용자 정보</td> 
+<td>개인정보 보호법 제35조~제38조</td> 
+<td>3년</td> 
+</tr> 
+<tr> 
+<td>개인정보 열람등요구 처리 사용자 정보(웹사이트)</td> 
+<td>개인정보 보호법 제35조~제39조</td> 
+<td>3년</td> 
+</tr> 
+<tr> 
+<td>유출사고 신고 처리 사용자 정보</td> 
+<td>개인정보 보호법 제34조 및 39조의4신용정보의 이용 및 보호에 관한 법률 제39조</td> 
+<td>준영구</td> 
+</tr> 
+<tr> 
+<td>개인정보보호 전문강사 명단</td> 
+<td>정보주체 동의</td> 
+<td>위촉 종료 후 2년</td> 
+</tr> 
+<tr> 
+<td>가명정보 전문가 명단</td> 
+<td>정보주체 동의</td> 
+<td>위촉기간 종료시까지</td> 
+</tr> 
+<tr> 
+<td>정보주체 권리행사 신청정보<br /> (구 e프라이버시 클린서비스 민원접수 및 처리목록)</td> 
+<td>개인정보 보호법 제4조, 제37조, 동법 시행령 제62조의2 제1항 4호</td> 
+<td>처리 완료 후 30일</td> 
+</tr> 
+<tr> 
+<td>분쟁조정 신청정보(신청서)</td> 
+<td>개인정보보호법 제40조~제50조</td> 
+<td>5년(조정(안)서, 결정서는 영구)</td> 
+</tr> 
+<tr> 
+<td>분쟁조정 신청정보(음성정보)</td> 
+<td>개인정보보호법 제40조~제50조</td> 
+<td>6개월</td> 
+</tr> 
+<tr> 
+<td>포털 서비스 이용정보(본인인증)</td> 
+<td>정보주체 동의</td> 
+<td>6개월<br /> (서비스 신청시 연장될 수 있음)</td> 
+</tr> 
+<tr> 
+<td>지우개(잊힐 권리) 서비스 신청자 정보</td> 
+<td>개인정보 보호법 제15조</td> 
+<td>3년</td> 
+</tr> 
+</tbody> 
+</table> 
+<h4 class="tit_list" id="list_num03"><span class="list_icon"><img src="../../assets/img/sub/img_private.png" alt="개인정보파일의 등록 현황"></span>개인정보파일의 등록 현황</h4> 
+<p class="oneBottomXS">「개인정보 보호법」 제32조에 따라 등록‧공개하는 개인정보파일의 처리목적‧보유기간 및 처리하는 개인정보 항목은 아래와 같습니다.</p> 
+<table class="oneTable"> 
+<caption>처리하는 개인정보의 항목의 대해 순번, 개인정보파일 명칭, 개인정보파일에 기록되는 개인정보의 항목을 확인할 수 있는 표입니다.</caption> 
+<colgroup> 
+<col style="width: 38%;"> 
+<col style="width: 6%;"> 
+<col style="width: 56%;"> 
+</colgroup> 
+<thead> 
+<tr> 
+<th scope="col" class="NamoSE_border_show">개인정보파일의 명칭</th> 
+<th scope="col" colspan="2" class="NamoSE_border_show">개인정보파일에 기록되는 개인정보의 항목</th> 
+</tr> 
+</thead> 
+<tbody> 
+<tr> 
+<td>교육서비스 제공 사용자 정보</td> 
+<td colspan="2" class="al">성명, 생년월일, 전자우편</td> 
+</tr> 
+<tr> 
+<td>개인정보 열람등요구 처리 사용자 정보</td> 
+<td colspan="2" class="al">성명, 생년월일, 전화번호, 주소<br /> 이메일, 휴대전화번호, 팩스번호</td> 
+</tr> 
+<tr> 
+<td>개인정보 열람등요구 처리 사용자 정보(웹사이트)</td> 
+<td colspan="2" class="al">∙정보주체<br />
+ 성명, 생년월일, 휴대전화번호, 전자우편주소, 중복가입 확인정보 DI<br />
+ ∙대리인<br /> 이름, 핸드폰(연락처)</td> 
+</tr> 
+<tr> 
+<td>유출사고 신고 처리 사용자 정보</td> 
+<td colspan="2" class="al">성명, 기관명, 전화번호, 전자우편<br /> 부서, 직위</td> 
+</tr> 
+<tr> 
+<td>개인정보보호 전문강사 명단</td> 
+<td colspan="2" class="al">성명, 전화번호, 전자우편</td> 
+</tr> 
+<tr> 
+<td>가명정보 전문가 명단</td> 
+<td colspan="2" class="al">성명, 전자우편, 휴대전화번호<br /> 소속, 소속부서/직위(직급)</td> 
+</tr> 
+<tr> 
+<td>정보주체 권리행사 신청정보<br /> (구 e프라이버시 클린서비스 민원접수 및 처리목록)</td> 
+<td colspan="2" class="al">성명, 전자우편, 휴대전화번호, 생년월일</td> 
+</tr> 
+<tr> 
+<td rowspan="3">분쟁조정 신청정보(신청서)</td> 
+<td>신청인</td> 
+<td class="al">성명, 생년월일, 전화번호, 주소, 신청내용, 전자우편주소</td> 
+</tr> 
+<tr> 
+<td>대리인</td> 
+<td class="al">성명, 생년월일, 전화번호, 주소, 신청인과 관계, 전자우편주소</td> 
+</tr> 
+<tr> 
+<td>피신청인</td> 
+<td class="al">성명, 전화번호, 전자우편주소, 주소</td> 
+</tr> 
+<tr> 
+<td>분쟁조정 신청정보(음성정보)</td> 
+<td colspan="2" class="al">전화번호, 전화상담내용</td> 
+</tr> 
+<tr> 
+<td>포털 서비스 이용정보(본인인증)</td> 
+<td colspan="2" class="al">성명, 생년월일, 중복가입확인정보(DI), 휴대전화번호</td> 
+</tr> 
+<tr> 
+<td>지우개(잊힐 권리) 서비스 신청자정보</td> 
+<td colspan="2" class="al">∙신청인<br />
+ 성명, 전화번호, 이메일, 생년월일, 요청 게시물 및 입증자료에 포함된 개인정보<br />
+ ∙대리인<br /> 성명, 전화번호, 이메일</td> 
+</tr> 
+</tbody> 
+</table> 
+<h4 class="tit_list" id="list_num04"><span class="list_icon"><img src="../../assets/img/sub/img_third.png" alt="개인정보 영향평가 수행 결과"></span>개인정보 영향평가 수행 결과</h4> 
+<ol class="oneBottomXS"> 
+<li>&#9312; <b>개인정보위</b>는 운영하고 있는 개인정보 처리시스템이 정보주체의 개인정보파일에 미칠 영향에 대해 조사, 분석, 평가하기 위해 「개인정보 보호법」제33조에 따라 &ldquo;개인정보 영향평가&rdquo;를 받고 있습니다.</li> 
+<li>&#9313; <b>개인정보위</b>는 다음 개인정보파일에 대해 영향평가를 수행하였습니다.</li> 
+</ol> 
+<table class="oneTable"> 
+<caption>개인정보 영향평가 수행 결과에 대해 개인정보파일의 명칭, 개인정보파일에 기록되는 개인정보의 항목, 영향평가 수행연도를 확인할 수 있는 표입니다.</caption> 
+<colgroup> 
+<col style="width: 38%;"> 
+<col style="width: 6%;"> 
+<col style="width: 50%;"> 
+<col style="width: 6%;"> 
+</colgroup> 
+<thead> 
+<tr> 
+<th scope="col" class="NamoSE_border_show">개인정보파일의 명칭</th> 
+<th scope="col" colspan="2" class="NamoSE_border_show">개인정보파일에 기록되는 개인정보의 항목</th> 
+<th scope="col" class="NamoSE_border_show">영향평가 수행연도</th> 
+</tr> 
+</thead> 
+<tbody> 
+<tr> 
+<td>교육서비스 제공 사용자 정보</td> 
+<td colspan="2" class="al">성명, 생년월일, 아이디, 비밀번호, 휴대폰번호, 이메일, 중복가입확인정보(DI) 법정대리인(성명, 생년월일, 연락처)</td> 
+<td rowspan="2">2024년</td> 
+</tr> 
+<tr> 
+<td>개인정보보호 전문강사 명단</td> 
+<td colspan="2" class="al">성명, 생년월일, 아이디, 비밀번호, 휴대폰번호, 이메일, 중복가입확인정보(DI), 기업/기관명, 직위, 추가연락처, 전문분야, 강의지역, 주요경력</td> 
+</tr> 
+<tr> 
+<td>개인정보 열람등요구 처리 사용자 정보</td> 
+<td colspan="2" class="al">성명, 생년월일, 전화번호, 주소<br /> 이메일, 휴대전화번호, 팩스번호</td> 
+<td rowspan="9">2023년</td> 
+</tr> 
+<tr> 
+<td>유출사고 신고 처리 사용자 정보</td> 
+<td colspan="2" class="al">성명, 기관명, 전화번호, 전자우편<br /> 부서, 직위</td> 
+</tr> 
+<tr> 
+<td>가명정보 전문가 명단</td> 
+<td colspan="2" class="al">성명, 전자우편, 휴대전화번호<br /> 소속, 소속부서/직위(직급)</td> 
+</tr> 
+<tr> 
+<td>정보주체 권리행사 신청정보<br /> (구 e프라이버시 클린서비스 민원접수 및 처리목록)</td> 
+<td colspan="2" class="al">성명, 전자우편, 휴대전화번호, 생년월일</td> 
+</tr> 
+<tr> 
+<td rowspan="3">분쟁조정 신청정보(신청서)</td> 
+<td>신청인</td> 
+<td class="al">성명, 생년월일, 전화번호, 주소, 신청내용, 전자우편주소</td> 
+</tr> 
+<tr> 
+<td>대리인</td> 
+<td class="al">성명, 생년월일, 전화번호, 주소, 신청인과 관계, 전자우편주소</td> 
+</tr> 
+<tr> 
+<td>피신청인</td> 
+<td class="al">성명, 전화번호, 전자우편주소, 주소</td> 
+</tr> 
+<tr> 
+<td>분쟁조정 신청정보(음성정보)</td> 
+<td colspan="2" class="al">전화번호, 전화상담내용</td> 
+</tr> 
+<tr> 
+<td>포털 서비스 이용정보(본인인증)</td> 
+<td colspan="2" class="al">성명, 생년월일, 중복가입확인정보(DI), 휴대전화번호</td> 
+</tr> 
+</tbody> 
+</table> 
+<h4 class="tit_list" id="list_num05"><span class="list_icon"><img src="../../assets/img/sub/img_third.png" alt="개인정보의 제3자 제공에 관한 사항"></span>개인정보의 제3자 제공에 관한 사항</h4> 
+<ol class="oneBottomXS"> 
+<li>&#9312; <b>개인정보위</b>는 정보주체의 동의, 법률의 특별한 규정 등 「개인정보 보호법」 제17조 및 제18조에 해당하는 경우에만 개인정보를 제3자에게 제공합니다.</li> 
+<li>&#9313; <b>개인정보위</b>는 법률에 따라 다음과 같이 개인정보를 제공합니다.</li> 
+</ol> 
+<table class="oneTable"> 
+<caption>개인정보의 제3자 제공에 관한 사항 제공받는자, 제공목적, 제공항목, 보유 및 이용기간, 관련근거를 확인할 수 있는 표입니다.</caption> 
+<colgroup> 
+<col style="width: 20%;"> 
+<col style="width: 15%;"> 
+<col style="width: 25%;"> 
+<col style="width: 15%;"> 
+<col style="width: auto;"> 
+</colgroup> 
+<thead> 
+<tr> 
+<th scope="col" class="NamoSE_border_show">제공받는자</th> 
+<th scope="col" class="NamoSE_border_show">제공목적</th> 
+<th scope="col" class="NamoSE_border_show">제공항목</th> 
+<th scope="col" class="NamoSE_border_show">보유 및 이용기간</th> 
+<th scope="col" class="NamoSE_border_show">관련근거</th> 
+</tr> 
+</thead> 
+<tbody> 
+<tr> 
+<td>분쟁조정 사건의 피신청인</td> 
+<td>사건 접수 안내 및 사실조사 등 분쟁조정</td> 
+<td>(신청인&middot;대리인) 성명, 생년월일, 전화번호, 전자우편, 신청내용</td> 
+<td>분쟁조정 사건 종료 시까지</td> 
+<td>개인정보 보호법 제43조제2항</td> 
+</tr> 
+<tr> 
+<td>민원인이 신청한 개인정보파일 보유기관</td> 
+<td>공공기관 열람 등 요구처리</td> 
+<td>신청인 성명, 생년월일, 전화번호, 주소, 이메일</td> 
+<td>3년</td> 
+<td>개인정보 보호법 제35조</td> 
+</tr> 
+</tbody> 
+</table> 
+<h4 class="tit_list" id="list_num16"><span class="list_icon"><img src="../../assets/img/sub/img_third.png" alt="추가적인 이용&middot;제공 판단 기준"></span>추가적인 이용&middot;제공 판단 기준</h4> 
+<ol class="oneBottomXS"> 
+<li>&#9312; <b>개인정보위</b>는 「개인정보 보호법」제15조제3항 또는 제17조제4항에 따라 「개인정보 보호법」 시행령 제14조의2에 따른 사항을 고려하여 정보주체의 동의 없이 개인정보를 추가적으로 이용&middot;제공할 수 있습니다.</li> 
+</ol> 
+<table class="oneTable"> 
+<caption>개인정보의 제3자 제공에 관한 사항 제공받는자, 제공목적, 제공항목, 보유 및 이용기간, 관련근거를 확인할 수 있는 표입니다.</caption> 
+<colgroup> 
+<col style="width: 28%;"> 
+<col style="width: 28%;"> 
+<col style="width: 28%;"> 
+<col style="width: auto;"> 
+</colgroup> 
+<thead> 
+<tr> 
+<th scope="col" class="NamoSE_border_show">제공받는자</th> 
+<th scope="col" class="NamoSE_border_show">제공목적</th> 
+<th scope="col" class="NamoSE_border_show">제공항목</th> 
+<th scope="col" class="NamoSE_border_show">보유 및 이용기간</th> 
+</tr> 
+</thead> 
+<tbody> 
+<tr> 
+<td>신청자가 삭제 등을 요청한 게시물의 게시판 운영자, 검색 서비스 사업자</td> 
+<td>지우개 서비스 업무처리</td> 
+<td>성명, 생년월일, 요청 게시물 및 입증자료에 포함된 개인정보</td> 
+<td>3년</td> 
+</tr> 
+</tbody> 
+</table> 
+<ol class="oneBottomXS"> 
+<li>&#9313; 이에 따라 개인정보위는 정보주체의 동의 없이 추가적인 이용&middot;제공을 하기 위해서 다음과 같은 사항을 고려하였습니다.</li> 
+<li>1. 제공하는 개인정보의 당초 수집 목적인 &lsquo;지우개 서비스 업무처리&rsquo;를 위하여 제공하는 것으로, 수집 목적과 관련성이 있고 신청자가 예측할 수 있는 범위에서 제공합니다.</li> 
+<li>2. 정보주체(신청자)의 요청에 따라 지우개(잊힐 권리) 서비스를 이행하기 위하여 제공하는 것으로, 정보주체의 이익을 부당하게 침해하지 않는 범위에서 제공합니다.</li> 
+<li>3. 지우개(잊힐 권리) 서비스를 이행하기 위하여 필요한 최소한의 정보만을 선별하여 안전하게 제공합니다.</li> 
+</ol> 
+<h4 class="tit_list" id="list_num06"><span class="list_icon"><img src="../../assets/img/sub/img_consign.png" alt="개인정보 처리의 위탁에 관한 사항"></span>개인정보 처리의 위탁에 관한 사항</h4> 
+<ol> 
+<li>&#9312; <b>개인정보위</b>는 원활한 개인정보 업무처리를 위하여 다음과 같이 개인정보 처리업무를 위탁하고 있습니다.</li> 
+</ol> 
+<ol class="mgt20 oneBottomXS"> 
+<li><b>가.수탁기관</b></li> 
+</ol> 
+<table class="oneTable"> 
+<caption>수탁업체명, 주소, 전화번호, 근무시간, 위탁업무등을 확인할 수 있는 표입니다.</caption> 
+<colgroup> 
+<col style="width: 20%;"> 
+<col style="width: auto;"> 
+</colgroup> 
+<thead> 
+<tr> 
+<th scope="col" class="NamoSE_border_show">위탁받는자(수탁자)</th> 
+<th scope="col" class="NamoSE_border_show">위탁업무</th> 
+</tr> 
+</thead> 
+<tbody> 
+<tr> 
+<td class="mo_none">한국인터넷진흥원</td> 
+<td class="txtl">1. 개인정보보호 지원시스템 운영<br />
+ 2. 개인정보 보호 교육<br />
+ 3. 개인정보보호 자율규제<br />
+ 4. 개인정보보호 수준향상<br />
+ 5. 개인정보보호 기술개발지원<br />
+ 6. 개인정보보호 협력체계 구축<br />
+ 7. 안전한 데이터 활용 지원<br />
+ 8. 개인정보 전송요구권 보장<br />
+ 9. 개인정보 침해방지 및 실태점검<br /> 10. 개인정보 노출 및 불법유통 대응</td> 
+</tr> 
+<tr> 
+<td class="mo_none">반디에스엔씨 컨소시엄</td> 
+<td class="txtl">개인정보 배움터, H/W 및 S/W 유지보수, Help-Desk 운영</td> 
+</tr> 
+</tbody> 
+</table> 
+<ol class="mgt20 oneBottomXS"> 
+<li><b>나.수탁업체</b></li> 
+</ol> 
+<table class="oneTable"> 
+<caption>수탁업체명, 주소, 전화번호, 근무시간, 위탁업무등을 확인할 수 있는 표입니다.</caption> 
+<colgroup> 
+<col style="width: 16%;"> 
+<col style="width: auto;"> 
+<col style="width: 14%;"> 
+<col style="width: 14%;"> 
+<col style="width: 25%;"> 
+</colgroup> 
+<thead> 
+<tr> 
+<th scope="col" class="NamoSE_border_show">수탁업체명</th> 
+<th scope="col" class="NamoSE_border_show">주소</th> 
+<th scope="col" class="NamoSE_border_show">전화</th> 
+<th scope="col" class="NamoSE_border_show">근무시간</th> 
+<th scope="col" class="NamoSE_border_show">위탁업무</th> 
+</tr> 
+</thead> 
+<tbody> 
+<tr> 
+<td>㈜유알피시스템</td> 
+<td class="txtl">서울특별시 영등포구 국제금융로 70(여의도동 미원빌딩 9층)</td> 
+<td>02-784-9271</td> 
+<td rowspan="2">09:00-18:00</td> 
+<td>개인정보 분쟁조정 시스템 유지관리</td> 
+</tr> 
+<tr> 
+<td>㈜아이알링크</td> 
+<td class="txtl">서울특별시 성동구 성수일로4길 25, 13층</td> 
+<td>02-6905-2800</td> 
+<td>개인정보 분쟁조정 업무용 녹취시스템 유지관리</td> 
+</tr> 
+</tbody> 
+</table> 
+<ol class="mgt20 oneBottomXS"> 
+<li><b>다.재위탁받는자(재수탁자)</b></li> 
+</ol> 
+<table class="oneTable"> 
+<caption>수탁업체명, 주소, 전화번호, 근무시간, 위탁업무등을 확인할 수 있는 표입니다.</caption> 
+<colgroup> 
+<col style="width: 16%;"> 
+<col style="width: auto;"> 
+<col style="width: 14%;"> 
+<col style="width: 14%;"> 
+<col style="width: 25%;"> 
+</colgroup> 
+<thead> 
+<tr> 
+<th scope="col" class="NamoSE_border_show">수탁업체명</th> 
+<th scope="col" class="NamoSE_border_show">주소</th> 
+<th scope="col" class="NamoSE_border_show">전화</th> 
+<th scope="col" class="NamoSE_border_show">근무시간</th> 
+<th scope="col" class="NamoSE_border_show">위탁업무</th> 
+</tr> 
+</thead> 
+<tbody> 
+<tr> 
+<td>㈜조인트리</td> 
+<td class="txtl">광주광역시 서구 마륵로 28-1</td> 
+<td>062-230-2500</td> 
+<td rowspan="10">09:00-18:00</td> 
+<td>개인정보 포털 H/W 및 S/W유지보수, Help-Desk 운영</td> 
+</tr> 
+<tr> 
+<td>㈜씨드젠</td> 
+<td class="txtl">서울특별시 구로구 디지털로 33길 28</td> 
+<td>02-786-9601</td> 
+<td>개인정보보호 현장교육 운영, 민원처리, 전문강사단 접수 및 선발관리, 가명정보 전문가 풀 운영</td> 
+</tr> 
+<tr> 
+<td>한국CPO포럼</td> 
+<td class="txtl">서울특별시 서초구 서초중앙로 56</td> 
+<td>02-544-1820</td> 
+<td>개인정보보호 전문관리자 교육 운영</td> 
+</tr> 
+<tr> 
+<td>포유시큐리티</td> 
+<td class="txtl">서울특별시 금천구 가산디지털 1로 58 에이스한솔타워 1011호</td> 
+<td>02-6964-7993</td> 
+<td>개인정보 영향평가 교육 및 영향평가사무국 운영</td> 
+</tr> 
+<tr> 
+<td>티사이언티픽</td> 
+<td class="txtl">서울시 동작구 여의대방로 62길 1</td> 
+<td>02-2135-8362</td> 
+<td>지우개(잊힐권리) 서비스 업무처리 및 운영 지원</td> 
+</tr> 
+<tr> 
+<td>유피에스데이터㈜</td> 
+<td class="txtl">서울특별시 서대문구 홍연길 77, 202호</td> 
+<td>02-3144-2122</td> 
+<td>데이터 안전활용 컨설팅 수행</td> 
+</tr> 
+</tbody> 
+</table> 
+<ol> 
+<li>&#9313; <b>개인정보위</b>는 위탁계약 체결 시, ｢개인정보 보호법｣ 제26조에 따라 위탁업무 수행목적 외 개인정보 처리금지, 안전성 확보조치, 재위탁 제한, 수탁자에 대한 관리‧감독, 손해배상 등 책임에 관한 사항을 계약서 등 문서에 명시하고, 수탁자가 개인정보를 안전하게 처리하는지를 감독하고 있습니다.</li> 
+<li>&#9314; 위탁업무의 내용이나 수탁자가 변경될 경우에는 지체 없이 본 개인정보 처리 방침을 통하여 공개하도록 하겠습니다.</li> 
+</ol> 
+<h4 class="tit_list" id="list_num07"><span class="list_icon"><img src="../../assets/img/sub/img_destruction.png" alt="개인정보의 파기 절차 및 방법"></span>개인정보의 파기 절차 및 방법</h4> 
+<ol> 
+<li>&#9312; <b>개인정보위</b>는 개인정보 보유기간의 경과, 처리목적 달성 등 개인정보가 불필요하게 되었을 때에는 지체없이 해당 개인정보를 파기합니다.</li> 
+<li>&#9313; 정보주체로부터 동의 받은 개인정보 보유기간이 경과하거나 처리목적이 달성되었음에도 불구하고 다른 법령에 따라 개인정보를 계속 보존하여야 하는 경우에는, 해당 개인정보를 별도의 데이터베이스(DB)로 옮기거나 보관장소를 달리하여 보존합니다.</li> 
+<li>&#9314; 개인정보 파기의 절차 및 방법은 다음과 같습니다. 
+<ol> 
+<li>1. 파기절차<br /> 개인정보위는 파기하여야 하는 개인정보(또는 개인정보파일)에 대해 개인정보 파기계획을 수립하여 파기합니다. 개인정보위는 파기 사유가 발생한 개인정보(또는 개인정보파일)를 선정하고, 개인정보위의 개인정보보호책임자의 승인을 받아 개인정보(또는 개인정보파일)를 파기합니다.</li> 
+<li>2. 파기방법<br /> 개인정보위는 전자적 파일 형태로 기록&middot;저장된 개인정보는 기록을 재생할 수 없도록 파기하며, 종이 문서에 기록&middot;저장된 개인정보는 분쇄기로 분쇄하거나 소각하여 파기합니다.</li> 
+</ol></li> 
+</ol> 
+<h4 class="tit_list" id="list_num08"><span class="list_icon"><img src="../../assets/img/sub/img_court.png" alt="정보주체와 법정대리인의 권리․의무 및 행사방법에 관한 사항"></span>정보주체와 법정대리인의 권리&middot;의무 및 행사방법에 관한 사항</h4> 
+<ol> 
+<li>&#9312; 정보주체는 개인정보위에 대해 언제든지 개인정보 열람&middot;정정&middot;삭제&middot;처리정지 및 철회 요구, 자동화된 결정에 대한 거부 또는 설명 요구 등의 권리를 행사할 수 있습니다.<br /> ※ 만 14세 미만 아동에 관한 개인정보의 열람등 요구는 법정대리인이 직접 해야 하며, 만 14세 이상의 미성년자인 정보주체는 정보주체의 개인정보에 관하여 미성년자 본인이 권리를 행사하거나 법정대리인을 통하여 권리를 행사할 수도 있습니다.</li> 
+<li>&#9313; 권리 행사는 개인정보위에 대해 ｢개인정보 보호법｣ 시행령 제41조 제1항에 따라 서면, 전자우편, 모사전송(FAX) 등을 통하여 하실 수 있으며, 개인정보위는 이에 대해 지체없이 조치하겠습니다.</li> 
+<li>&#9314; 권리 행사는 정보주체의 법정대리인이나 위임을 받은 자 등 대리인을 통하여 하실 수도 있습니다. 이 경우 &ldquo;개인정보 처리 방법에 관한 고시(제2020-7호)&rdquo; 별지 제11호 서식에 따른 위임장을 제출하셔야 합니다.</li> 
+<li>&#9315; 개인정보 열람 및 처리 정지를 요구할 권리는 ｢개인정보 보호법｣ 제35조 제4항 및 제37조 제2항에 의하여 제한 될 수 있습니다.</li> 
+<li>&#9316; 다른 법령에서 그 개인정보가 수집 대상으로 명시되어 있는 경우에는 해당 개인정보의 삭제를 요구할 수 없습니다.</li> 
+<li>&#9317; 자동화된 결정이 이루어진다는 사실에 대해 정보주체의 동의를 받았거나, 계약 등을 통해 미리 알린 경우, 법률에 명확히 규정이 있는 경우에는 자동화된 결정에 대한 거부는 인정되지 않으며 설명 및 검토 요구만 가능합니다. 또한 자동화된 결정에 대한 거부&middot;설명 요구는 다른 사람의 생명&middot;신체&middot;재산과 그 밖의 이익을 부당하게 침해할 우려가 있는 등 정당한 사유가 있는 경우에는 그 요구가 거절될 수 있습니다.</li> 
+<li>&#9318; 개인정보위는 정보주체 권리에 따른 열람의 요구, 정정&middot;삭제의 요구, 처리정지의 요구, 자동화된 결정 거부&middot;설명 요구 시 열람 등 요구를 한 자가 본인이거나 정당한 대리인인지를 확인합니다.</li> 
+</ol> 
+<h4 class="tit_list" id="list_num09"><span class="list_icon"><img src="../../assets/img/sub/img_safe.png" alt="개인정보의 안전성 확보조치에 관한 사항"></span>개인정보의 안전성 확보조치에 관한 사항</h4> 
+<p><b>개인정보위</b>는 개인정보의 안전성 확보를 위해 다음과 같은 조치를 취하고 있습니다.</p> 
+<ol> 
+<li> 
+<h5 class="tit_rule">1. 관리적 조치 : 내부관리계획 수립․시행, 정기적 직원 교육</h5></li> 
+<li> 
+<h5 class="tit_rule">2. 기술적 조치 : 개인정보처리시스템 등의 접근권한 관리, 접근통제시스템 설치, 고유식별정보 등의 암호화, 보안프로그램 설치</h5></li> 
+<li> 
+<h5 class="tit_rule">3. 물리적 조치 : 전산실, 자료보관실 등의 접근통제</h5></li> 
+</ol> 
+<h4 class="tit_list" id="list_num10"><span class="list_icon"><img src="../../assets/img/sub/img_cookie.png" alt="개인정보 자동 수집 장치의 설치&middot;운영 및 거부에 관한 사항"></span>개인정보를 자동 수집하는 장치의 설치&bull;운영 및 거부에 관한 사항</h4> 
+<ol> 
+<li>&#9312; <b>개인정보위</b>는 이용자에게 개별적인 맞춤서비스를 제공하기 위해 이용 정보를 저장하고 수시로 불러오는 &lsquo;쿠키(cookie)&rsquo;를 사용합니다.</li> 
+<li>&#9313; 쿠키는 웹사이트를 운영하는데 이용되는 서버(http)가 이용자의 컴퓨터 브라우저에게 보내는 소량의 정보이며 이용자들의 PC 컴퓨터내의 하드디스크에 저장되기도 합니다. 
+<ol> 
+<li> 
+<h5 class="tit_rule">가. 쿠키의 사용목적 : 이용자가 방문한 각 서비스와 이용형태, 인기 검색어 등을 파악하여 이용자에게 보다 편리한 서비스를 제공하기 위해 사용됩니다.</h5></li> 
+<li> 
+<h5 class="tit_rule">나. 쿠키의 설치&middot;운영 및 거부 : 웹브라우저 옵션 설정을 통해 쿠키 허용, 쿠키 차단 등의 설정을 할 수 있습니다.</h5> 
+<ol> 
+<li>- Edge: 웹브라우저 우측 상단의 설정 메뉴 &gt; 쿠키 및 사이트 권한 &gt; 쿠키 및 사이트 데이터 관리 및 삭제</li> 
+<li>- Chrome: 웹브라우저 우측 상단의 설정 메뉴 &gt; 개인정보 및 보안 &gt; 쿠키 및 기타 사이트 데이터</li> 
+<li>- Whale: 웹브라우저 우측 상단의 설정 메뉴 &gt; 개인정보 보호 &gt; 쿠키 및 기타 사이트 데이터</li> 
+</ol></li> 
+<li> 
+<h5 class="tit_rule">다. 쿠키 저장을 거부할 경우 맞춤형 서비스 이용에 어려움이 발생할 수 있습니다.</h5></li> 
+</ol></li> 
+</ol> 
+<h4 class="tit_list" id="list_num11"><span class="list_icon"><img src="../../assets/img/sub/img_cpo.png" alt="개인정보 보호책임자에 관한 사항"></span>개인정보 보호책임자에 관한 사항</h4> 
+<ol> 
+<li>&#9312; 개인정보위는 개인정보 처리에 관한 업무를 총괄해서 책임지고, 개인정보 처리와 관련한 정보주체의 불만처리 및 피해구제 등을 위하여 아래와 같이 개인정보 보호책임자를 지정하고 있습니다. 
+<table class="oneTable"> 
+<caption>개인정보 보호책임자에 대한 구분, 부서명, 성명, 연락처를 확인할 수 있는 표입니다.</caption> 
+<colgroup> 
+<col style="width: 16%;"> 
+<col style="width: 14%;"> 
+<col style="width: 25%;"> 
+<col style="width: 14%;"> 
+</colgroup> 
+<thead> 
+<tr> 
+<th class="NamoSE_border_show">구분</th> 
+<th class="NamoSE_border_show">부서명</th> 
+<th class="NamoSE_border_show">성명</th> 
+<th class="NamoSE_border_show">연락처</th> 
+</tr> 
+</thead> 
+<tbody> 
+<tr> 
+<td>개인정보 보호 책임자</td> 
+<td>기획조정관</td> 
+<td>고은영</td> 
+<td>02-2100-2440</td> 
+</tr> 
+<tr> 
+<td rowspan="6">개인정보 보호 분야별 책임자</td> 
+<td>법무감사담당관(포털 본인인증)</td> 
+<td>김면기</td> 
+<td>02-2100-2471</td> 
+</tr> 
+<tr> 
+<td>개인정보보호정책과장(잊힐 권리)</td> 
+<td>김직동</td> 
+<td>02-2100-3051</td> 
+</tr> 
+<tr> 
+<td>데이터안전정책과장(가명정보)</td> 
+<td>김영근</td> 
+<td>02-2100-3071</td> 
+</tr> 
+<tr> 
+<td>자율보호정책과장(열람요구, 정보주체 권리행사, 교육, 전문강사)</td> 
+<td>윤여진</td> 
+<td>02-2100-3081</td> 
+</tr> 
+<tr> 
+<td>조사총괄과장(유출신고)</td> 
+<td>강대현</td> 
+<td>02-2100-3101</td> 
+</tr> 
+<tr> 
+<td>분쟁조정과장(분쟁조정)</td> 
+<td>이정아</td> 
+<td>02-2100-3141</td> 
+</tr> 
+<tr> 
+<td>개인정보 보호담당자</td> 
+<td>법무감사담당관</td> 
+<td>김면기</td> 
+<td>02-2100-2471</td> 
+</tr> 
+<tr> 
+<td>개인정보 보호실무담당자</td> 
+<td>법무감사담당관실</td> 
+<td>반장권</td> 
+<td>02-2100-2479</td> 
+</tr> 
+</tbody> 
+</table></li> 
+<li>&#9313; 정보주체는 개인정보위의 서비스(또는 사업)을 이용하시면서 발생한 개인정보 보호 관련 불만 처리, 피해구제 등에 관한 사항을 개인정보 보호책임자 및 담당부서로 문의할 수 있습니다. 개인정보위는 정보주체의 문의에 대해 지체없이 답변 및 처리해드릴 것입니다.</li> 
+</ol> 
+<h4 class="tit_list" id="list_num12"><span class="list_icon"><img src="../../assets/img/sub/img_browse.png" alt="개인정보의 열람청구를 접수&middot;처리하는 부서"></span>개인정보의 열람청구를 접수&middot;처리하는 부서</h4> 
+<ol> 
+<li>&#9312; 정보주체는 ｢개인정보 보호법｣ 제35조에 따른 개인정보의 열람청구를 아래의 부서에 할 수 있습니다.<br /> 개인정보위는 정보주체의 개인정보 열람청구가 신속하게 처리되도록 노력하겠습니다.</li> 
+<table class="oneTable"> 
+<caption>개인정보 열람청구를 접수&middot;처리하는 부서에 대한 부서명, 개인정보파일, 담당자, 연락처를 확인할 수 있는 표입니다.</caption> 
+<colgroup> 
+<col style="width: 20%;"> 
+<col style="width: 35%;"> 
+<col style="width: 10%;"> 
+<col style="width: 35%;"> 
+</colgroup> 
+<thead> 
+<tr> 
+<th class="NamoSE_border_show">부서명</th> 
+<th class="NamoSE_border_show">개인정보파일</th> 
+<th class="NamoSE_border_show">담당자</th> 
+<th class="NamoSE_border_show">연락처</th> 
+</tr> 
+</thead> 
+<tbody> 
+<tr> 
+<td>분쟁조정과</td> 
+<td>- 분쟁조정 신청정보</td> 
+<td>문근영</td> 
+<td> 
+<ul> 
+<li>&middot; 전화: 02-2100-3145</li> 
+<li>&middot; 팩스: 02-2100-3007</li> 
+<li>&middot; 이메일: taoist71@korea.kr</li> 
+</ul></td> 
+</tr> 
+<tr> 
+<td rowspan="2">자율보호 정책과</td> 
+<td>- 개인정보 열람 등 요구 처리 사용자 정보<br />
+ - e프라이버시 클린서비스 민원접수 및 처리목록 - 교육서비스 제공 사용자 정보<br /> - 개인정보보호 전문강사 명단</td> 
+<td>이화</td> 
+<td> 
+<ul> 
+<li>&middot; 전화: 02-2100-3083</li> 
+<li>&middot; 팩스: 02-2100-3006</li> 
+<li>&middot; 이메일: lhwa@korea.kr</li> 
+</ul></td> 
+</tr> 
+<tr> 
+<td>- 개인정보보호 자율점검 지원시스템 이용자 정보</td> 
+<td>정윤식</td> 
+<td> 
+<ul> 
+<li>&middot; 전화: 02-2100-3089</li> 
+<li>&middot; 팩스: 02-2100-3006</li> 
+<li>&middot; 이메일: bon306@korea.kr</li> 
+</ul></td> 
+</tr> 
+<tr> 
+<td>조사총괄과</td> 
+<td>- 유출신고 신고 처리 사용자 정보</td> 
+<td>김은정</td> 
+<td> 
+<ul> 
+<li>&middot; 전화: 02-2100-3164</li> 
+<li>&middot; 팩스: 02-2100-3007</li> 
+<li>&middot; 이메일: ejk12@korea.kr</li> 
+</ul></td> 
+</tr> 
+<tr> 
+<td>개인정보 보호정책과</td> 
+<td>- 지우개(잊힐 권리) 서비스 신청자 정보</td> 
+<td>유현원</td> 
+<td> 
+<ul> 
+<li>&middot; 전화: 02-2100-3060</li> 
+<li>&middot; 팩스: 02-2100-3006</li> 
+<li>&middot; 이메일: yhw34@korea.kr</li> 
+</ul></td> 
+</tr> 
+<tr> 
+<td>데이터안전 정책과</td> 
+<td>- 가명정보 전문가 풀 명단</td> 
+<td>이명진</td> 
+<td> 
+<ul> 
+<li>&middot; 전화: 02-2100-3076</li> 
+<li>&middot; 팩스: 02-2100-3006</li> 
+<li>&middot; 이메일: lmj0403@korea.kr</li> 
+</ul></td> 
+</tr> 
+<tr> 
+<td>법무감사담 당관실</td> 
+<td>- 포털 서비스 이용정보(본인인증)</td> 
+<td>반장권</td> 
+<td> 
+<ul> 
+<li>&middot; 전화: 02-2100-2479</li> 
+<li>&middot; 팩스: 02-2100-3005</li> 
+<li>&middot; 이메일: banjk@korea.kr</li> 
+</ul></td> 
+</tr> 
+</tbody> 
+</table> 
+<li>&#9313; 정보주체는 제1항의 열람청구 부서 이외에 '개인정보 포털(www.privacy.go.kr')'을 통해 다음과 같이 개인정보 열람청구를 할 수 있습니다.<br /> ※ 청구절차 : 개인정보 포털 &rarr; 민원서비스 &rarr; 정보주체 권리행사 &rarr; 개인정보 열람등요구(본인인증 필요)</li> 
+</ol> 
+<h4 class="tit_list" id="list_num13"><span class="list_icon"><img src="../../assets/img/sub/img_help.png" alt="정보주체의 권익침해에 대한 구제방법"></span>정보주체의 권익침해에 대한 구제방법</h4> 
+<ol> 
+<li>&#9312; 정보주체는 개인정보침해로 인한 구제를 받기 위하여 개인정보분쟁조정위원회, 한국인터넷진흥원 개인정보침해신고센터 등에 분쟁해결이나 상담 등을 신청할 수 있습니다. 이 밖에 기타 개인정보침해의 신고, 상담에 대하여는 아래의 기관에 문의하시기 바랍니다. 
+<ol> 
+<li> 
+<h5 class="tit_rule">1. 개인정보분쟁조정위원회 : (국번없이) 1833-6972 (www.kopico.go.kr)</h5></li> 
+<li> 
+<h5 class="tit_rule">2. 개인정보침해신고센터 : (국번없이) 118 (privacy.kisa.or.kr)</h5></li> 
+<li> 
+<h5 class="tit_rule">3. 대검찰청 : (국번없이) 1301 (www.spo.go.kr)</h5></li> 
+<li> 
+<h5 class="tit_rule">4. 경찰청 사이버수사국 : (국번없이) 182 (ecrm.police.go.kr)</h5></li> 
+</ol></li> 
+<li>&#9313; 개인정보위는 정보주체의 개인정보자기결정권을 보장하고, 개인정보침해로 인한 상담 및 피해 구제를 위해 노력하고 있으며, 신고나 상담이 필요한 경우 아래의 담당부서로 연락해 주시기 바랍니다.<br />
+ <dl> <dt>▶ 개인정보보호 관련 고객 상담 및 신고</dt> <dd>- 부서명 : 법무감사담당관</dd> <dd>- 담당자 : 반장권</dd> <dd>- 연락처 : &lt;전화 : 02-2100-2479&gt;, &lt;이메일 : banjk@korea.kr&gt;, &lt;팩스 : 02-2100-3005&gt;</dd></dl></li> 
+<li>&#9314; ｢개인정보 보호법｣ 제35조(개인정보의 열람), 제36조(개인정보의 정정&middot;삭제), 제37조(개인정보의 처리정지 등)의 규정에 의한 요구에 대하여 공공기관의 장이 행한 처분 또는 부작위로 인하여 권리 또는 이익의 침해를 받은 자는 행정심판법이 정하는 바에 따라 행정심판을 청구할 수 있습니다.<br /> ※ 중앙행정심판위원회 : (국번없이) 110 (www.simpan.go.kr)</li> 
+</ol> 
+<h4 class="tit_list" id="list_num14"><span class="list_icon"><img src="../../assets/img/sub/img_result.png" alt="개인정보 보호수준 평가 결과"></span>개인정보 보호수준 평가 결과</h4> 
+<ol> 
+<li>&#9312; 개인정보위는 정보주체의 개인정보를 안전하게 관리하기 위해 ｢개인정보 보호법｣ 제11조의2에 따라 매년 개인정보위에서 실시하는 &ldquo;개인정보 보호수준 평가&rdquo;를 받고 있습니다.</li> 
+<li>&#9313; 개인정보위는 &lsquo;2023년도 개인정보 보호수준 평가 결과 &lsquo;A&rsquo;등급을 획득하였습니다.</li> 
+<li>&#9314; 개인정보위는 개인정보 처리절차 개선, 시스템 보완(개인정보 자동 필터링) 강화 등을 추진하여 개인정보 유출 방지를 위해 노력하고 있습니다.</li> 
+</ol> 
+<h4 class="tit_list" id="list_num15"><span class="list_icon"><img src="../../assets/img/sub/img_change.png" alt="개인정보 처리방침의 변경에 관한 사항"></span>개인정보 처리방침의 변경에 관한 사항</h4> 
+<ol class="oneBottomXS"> 
+<li>&#9312; 이 개인정보 처리방침은 <strong class="colorRed">2024년 07월 01일</strong>부터 적용됩니다.</li> 
+<li>&#9313; 이 전의 개인정보 처리방침은 아래에서 확인할 수 있습니다.</li> 
+</ol> 
+<div class="oneField oneSelect"> 
+<select class="links" title="개인정보처리방침 이동"> 
+<option value="121">2011. 09. 30 ~ 2012. 05. 14 적용</option> 
+<option value="122">2012. 05. 15 ~ 2013. 03. 22 적용</option> 
+<option value="123">2013. 03. 23 ~ 2013. 04. 21 적용</option> 
+<option value="124">2013. 04. 22 ~ 2013. 08. 11 적용</option> 
+<option value="125">2013. 08. 12 ~ 2014. 02. 04 적용</option> 
+<option value="126">2014. 02. 05 ~ 2014. 05. 06 적용</option> 
+<option value="127">2014. 05. 07 ~ 2015. 01. 05 적용</option> 
+<option value="128">2015. 01. 06 ~ 2015. 01. 22 적용</option> 
+<option value="129">2015. 01. 23 ~ 2016. 02. 29 적용</option> 
+<option value="130">2016. 03. 01 ~ 2016. 05. 09 적용</option> 
+<option value="131">2016. 05. 10 ~ 2016. 08. 24 적용</option> 
+<option value="132">2016. 08. 25 ~ 2016. 11. 20 적용</option> 
+<option value="133">2016. 11. 21 ~ 2017. 02. 09 적용</option> 
+<option value="134">2017. 02. 10 ~ 2017. 06. 30 적용</option> 
+<option value="135">2017. 07. 01 ~ 2017. 07. 25 적용</option> 
+<option value="136">2017. 07. 26 ~ 2017. 11. 15 적용</option> 
+<option value="137">2017. 11. 16 ~ 2018. 04. 04 적용</option> 
+<option value="138">2018. 04. 05 ~ 2018. 09. 30 적용</option> 
+<option value="141">2018. 10. 01 ~ 2018. 12. 31 적용</option> 
+<option value="142">2019. 01. 01 ~ 2019. 02. 07 적용</option> 
+<option value="143">2019. 02. 08 ~ 2019. 05. 31 적용</option> 
+<option value="144">2019. 06. 01 ~ 2020. 01. 27 적용</option> 
+<option value="145">2020. 01. 28 ~ 2020. 02. 09 적용</option> 
+<option value="146">2020. 02. 10 ~ 2020. 08. 04 적용</option> 
+<option value="147">2020. 08. 05 ~ 2021. 05. 25 적용</option> 
+<option value="148">2021. 05. 26 ~ 2022. 03. 10 적용</option> 
+<option value="149">2022. 03. 11 ~ 2022. 09. 27 적용</option> 
+<option value="150">2022. 09. 28 ~ 2023. 03. 05 적용</option> 
+<option value="267">2023. 03. 06 ~ 2023. 04. 23 적용</option> 
+<option value="277">2023. 04. 24 ~ 2023. 08. 10 적용</option> 
+<option value="290">2023. 08. 11 ~ 2023. 10. 05 적용</option> 
+<option value="283">2023. 10. 06 ~ 2024. 05. 13 적용</option> 
+<option value="319">2024. 05. 14 ~ 2024. 06. 30 적용</option> 
+<option selected="selected" value="326">2024. 07. 01 ~</option> 
+</select></div> 
+<form name="perRuleFrm" id="perRuleFrm" method="post"> <input type="hidden" name="perRuleNum" id="perRuleNum"> 
+</form></div>
+             <!-- end 콘텐츠 내용 -->
+        </div>
+       
+    </div>      
+    <!-- footer -->
+    
+
+
+
+
+
+
+
+<script>
+function serverStop() {
+	alert("서비스 점검 중입니다.");
+}
+</script>
+
+<div class="onePushService">
+    <div class="containerLayout">
+        <svg width="1000" height="56" viewBox="0 0 300 56">
+            <defs>
+              <filter id="blurFilter">
+                <feGaussianBlur in="wonSvg" stdDeviation="10" result="blur"></feGaussianBlur>
+                <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 20 -10" result="wonSvg"></feColorMatrix>
+                <feBlend in="SourceGraphic" in2="wonSvg"></feBlend>
+              </filter>
+            </defs>
+          </svg>
+        
+    </div>
+    <div class="onePushServiceBottom"></div>
+</div>
+<footer class="oneFooterLayout">
+    <div class="oneRightMenu">
+    	<a href="javascript:void(0)" class="on" title="접기"><i class="icon-minus"></i></a>
+        <ul class="oneRightMenuList" style="display:none;">
+            <li>
+                <a href="/front/reqDis/reqDisStep1.do" title="분쟁조정 신청">
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="35" height="35" viewBox="0 0 35 35">
+						<defs>
+							<clipPath>
+								<rect width="35" height="35" transform="translate(-24223 -20536.934)" fill="#fff" stroke="#707070" stroke-width="1"/>
+							</clipPath>
+						</defs>
+						<g transform="translate(24223 20536.934)" clip-path="url(#clip-path)">
+							<g transform="translate(-24218.885 -20534.813)">
+								<path d="M2241.168,1363.57H2227.2v-2.5a.835.835,0,0,1,.718-.915h12.533a.835.835,0,0,1,.719.915Z" transform="translate(-2227.199 -1336.046)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" class="hoverStroke" />
+								<path d="M2272.416,1305.43h-11.232v-2.043a.835.835,0,0,1,.719-.915h9.795a.835.835,0,0,1,.719.915Z" transform="translate(-2259.815 -1281.323)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"class="hoverStroke" />
+								<g transform="translate(1.369 -1.43)">
+									<rect width="5.805" height="7.597" rx="2" transform="translate(3.305 8.986) rotate(-51)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" class="hoverStroke"/>
+									<path d="M6.228,8.5,0,2.112,2.112,0,8.34,6.391" transform="matrix(0.995, -0.105, 0.105, 0.995, 9.876, 10.573)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" class="hoverStroke"/>
+									<path d="M6.313,5.722l-.941.94L0,1.29.941.35a1.2,1.2,0,0,1,1.69,0L6.313,4.032A1.2,1.2,0,0,1,6.313,5.722Z" transform="matrix(0.995, -0.105, 0.105, 0.995, 0, 11.618)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" class="hoverStroke"/>
+									<path d="M6.662,5.372l-.94.94a1.2,1.2,0,0,1-1.69,0L.35,2.63A1.2,1.2,0,0,1,.35.94L1.29,0Z" transform="matrix(0.995, -0.105, 0.105, 0.995, 8.844, 0.696)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" class="hoverStroke" />
+									<rect width="2.512" height="5.324" transform="matrix(0.629, -0.777, 0.777, 0.629, 2.608, 11.654)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" class="hoverStroke" />
+									<rect width="2.512" height="5.324" transform="matrix(0.629, -0.777, 0.777, 0.629, 7.842, 5.191)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" class="hoverStroke"/>
+									<path d="M9.692,7.683,7.83,9.545a1.2,1.2,0,0,1-1.69,0L0,3.552,3.552,0l6.14,5.993A1.2,1.2,0,0,1,9.692,7.683Z" transform="matrix(0.995, -0.105, 0.105, 0.995, 16.167, 15.698)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" class="hoverStroke" />
+								</g>
+							</g>
+						</g>
+					</svg>
+                </a>
+                <p>
+                	<strong>분쟁조정 신청</strong><br />
+                	개인정보에 관한 분쟁이 발생하였을 때 조정을 통해<br />
+                	국민의 피해를 신속하고 원만하게 구제하는 서비스입니다.
+                </p>
+            </li>
+            <li>
+                <a href="/front/wcp/spl/splRptInfo.do" title="개인정보 유출신고">
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="35" height="35" viewBox="0 0 35 35">
+						<defs>
+							<clipPath>
+							  <rect width="35" height="35" transform="translate(-24223 -20536)" fill="#fff" stroke="#707070" stroke-width="1"/>
+							</clipPath>
+						</defs>
+						<g transform="translate(24223 20536)" clip-path="url(#clip-path)">
+							<g transform="translate(-24219.074 -20533.502)">
+								<g transform="translate(5.439 6.831)">
+									<ellipse cx="8.002" cy="8.002" rx="8.002" ry="8.002" transform="translate(0 0)" fill="none"/>
+									<path d="M0,1.009S3.58,2.825,4.993,2.758s5.045-1.749,5.045-1.749V.269L0,0Z" transform="translate(2.86 13.251)" fill="none"/>
+									<ellipse cx="2.87" cy="2.87" rx="2.87" ry="2.87" transform="translate(5.116 3.333)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" class="hoverStroke" />
+									<path d="M0,3.072A5.846,5.846,0,0,1,10.251,3" transform="translate(2.86 10.77)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" class="hoverStroke" />
+									<ellipse cx="8.002" cy="8.002" rx="8.002" ry="8.002" transform="translate(0 0)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" class="hoverStroke"/>
+								</g>
+								<g transform="translate(0 0)">
+									<path d="M156.606,704.727a13.59,13.59,0,0,0,18.879,18.879l-3.189-1.627" transform="translate(-154.255 -697.462)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" class="hoverStroke" />
+									<line x1="1.032" y2="3.58" transform="translate(20.198 26.142)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" class="hoverStroke" />
+									<path d="M179.642,718.949a13.59,13.59,0,0,0-18.879-18.879l3.053,1.627" transform="translate(-155.233 -696.411)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" class="hoverStroke" />
+									<path d="M0,5.646.61,1.988" transform="translate(5.53 -1.988)" fill="none" stroke="#000" stroke-linecap="round" stroke-width="1" class="hoverStroke"/>
+								</g>
+							</g>
+						</g>
+					</svg>
+                </a>
+                <p>
+                	<strong>개인정보 유출신고</strong><br />
+                	사업자(공공기관, 기업 등)가 처리하는 개인정보가<br />
+                	해킹 등으로 유출된 경우를 신고하는 서비스입니다.
+                </p>
+            </li>
+            <li>
+                <a href="/front/wcp/dcl/per/memberSecStep1.do" title="회원탈퇴 신청">
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="35" height="35" viewBox="0 0 35 35">
+						<defs>
+							<clipPath>
+								<rect width="35" height="35" transform="translate(-24223 -20536)" fill="none" stroke="#707070" stroke-width="1"/>
+							</clipPath>
+						</defs>
+						<g transform="translate(24223 20536)" clip-path="url(#clip-path)">
+							<g transform="translate(-24216.654 -20530.326)">
+								<g transform="translate(0 0)">
+									<path d="M12.685,21.366H0V0H18.694V8.29" fill="none" stroke="#000" stroke-linejoin="round" stroke-width="1" class="hoverStroke" />
+									<path d="M14.688,4.674H4.006L0,0H18.694Z" fill="none" stroke="#000" stroke-linejoin="round" stroke-width="1" class="hoverStroke"/>
+								</g>
+								<g transform="translate(11.04 8.365)">
+									<path d="M3.485,11.85h0A3.5,3.5,0,0,1,0,8.365V3.485A3.5,3.5,0,0,1,3.485,0h0A3.5,3.5,0,0,1,6.971,3.485v4.88A3.5,3.5,0,0,1,3.485,11.85Z" transform="translate(2.775)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1" class="hoverStroke" />
+									<circle cx="6.274" cy="6.274" r="6.274" transform="translate(0 4.063)" fill="#fff" stroke="#000" stroke-linejoin="round" stroke-width="1" class="hoverStroke fillBlue" />
+									<circle cx="1.394" cy="1.394" r="1.394" transform="translate(4.866 9.062)" class="hoverFill" />
+								</g>
+							</g>
+						</g>
+					</svg>
+                </a>
+                <p>
+                	<strong>회원탈퇴 신청</strong><br />
+                	명의도용이 의심되거나 더 이상 이용을 원하지 않는 불필요한<br />웹사이트에 대한 회원 탈퇴 처리 대행하는 서비스입니다.
+                </p>
+            </li>
+            <!-- <li>
+                <a href="javascript:void(0)" onclick="oneS.notReady()">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="25.178" height="25.178" viewBox="0 0 25.178 25.178">
+                        <g transform="translate(0.5 0.5)">
+                          <ellipse class="hoverStroke" cx="4.336" cy="4.336" rx="4.336" ry="4.336" transform="translate(7.73 5.036)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"></ellipse>
+                          <path d="M191.8,624.338s5.408,2.744,7.543,2.642,7.622-2.642,7.622-2.642V623.22l-15.165-.407Z" transform="translate(-187.478 -602.794)" fill="none"></path>
+                          <path class="hoverStroke" d="M194.785,631.061a8.832,8.832,0,0,1,15.488-.112" transform="translate(-190.464 -610.147)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"></path>
+                          <ellipse class="hoverStroke" cx="12.089" cy="12.089" rx="12.089" ry="12.089" transform="translate(0 0)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"></ellipse>
+                        </g>
+                    </svg>
+                </a>
+                <p>MY 개인정보</p>
+            </li> -->
+        </ul>
+        <div class="onePrivate">
+            <div class="privateHand">
+                <img src="/assets/img/sub/privateHand.png" alt="">
+            </div>
+            <a href="javascript:void(0)" title="챗봇 열림"><img src="/assets/img/sub/private.png" alt=""></a>
+            <span>프라이벗</span>
+            <div class="onePrivateSpeech">
+                <img src="/assets/img/sub/privateSpeech.png" alt="궁금한 게 있으신가요?">
+            </div>
+        </div>
+        <div class="oneUpBtn">
+        	<a href="javascript:void(0)" title="페이지 상단으로 이동">
+				<span><i class="icon-up"></i>TOP</span>
+			</a>
+		</div>
+    </div>
+    <div class="oneFooterRight">
+        <div class="oneFooterFamilySite">
+            <select title="관련 사이트 이동">
+                <option value="">관련사이트</option>
+                <option value="http://www.pipc.go.kr">개인정보보호위원회</option>
+                <option value="https://www.kopico.go.kr/main/main.do">개인정보분쟁조정위원회</option>
+                <option value="http://www.kisa.or.kr">한국인터넷진흥원</option>
+                <option value="https://privacy.kisa.or.kr/main.do">개인정보침해신고센터</option>
+                <option value="https://intra.privacy.go.kr/uat/uia/egovLoginUsr.do">개인정보보호종합지원시스템</option>
+                <option value="https://dataprivacy.go.kr">가명정보결합종합지원시스템</option>
+                <option value="https://kidc.eprivacy.go.kr">털린내정보찾기서비스</option>
+				<option value="http://www.boho.or.kr/main.do">보호나라(인터넷침해대응센터)</option>
+                <option value="http://www.spamcop.or.kr">불법스팸대응센터</option>
+                <option value="http://www.rootca.or.kr">전자서명인증관리센터</option>
+                <option value="https://ecrm.police.go.kr">사이버범죄 신고시스템(ECRM)</option>
+                <option value="https://www.ncsc.go.kr:4018">국가정보원 국가사이버안전센터</option>
+                <option value="http://www.ecmc.or.kr">ICT분쟁조정지원센터</option>
+            </select>
+            <a href="javascript:void(0)" title="새 창 열림">이동</a>
+        </div>
+
+        <ul class="oneFooterLayout_logoList">
+            <li><a href="https://www.pipc.go.kr/np/" target="_blank"><img src="/assets/img/common/logo_privacy.svg" alt="개인정보보호위원회 로고"></a></li>
+            <li><a href="http://www.wa.or.kr/board/list.asp?BoardID=0006" target="_blank"><img src="/assets/img/common/webAccessibility.png" width="80" height="56" alt="(사)한국장애인단체총연합회 한국웹접근성인증평가원 웹 접근성 우수사이트 인증마크(WA인증마크)"></a></li>
+            <li><a href="http://www.i-award.or.kr/web/prize/2022/Awarded01.aspx" target="_blank"><img src="/assets/img/common/webAward.svg" alt="WEB AWARD 21 WINNER"></a></li>
+        </ul> 
+    </div>
+    <ul class="oneFooterLayout_link">
+        <li class="on"><a href="/front/contents/cntntsView.do?contsNo=326">개인정보처리방침</a></li>
+        <li><a href="javascript:void(0)" onclick="$('.oneAllMenuOpen > a').click()">사이트맵</a></li>
+        <li><a href="/front/contents/cntntsView.do?contsNo=169">웹접근성정책</a></li>
+        <li><a href="/front/contents/cntntsView.do?contsNo=167">뷰어모음 다운로드</a></li>
+    </ul>
+    <address class="oneFooterLayout_addr">
+        03171 서울특별시 종로구 세종대로209(정부서울청사 4층 개인정보보호위원회)<br>
+    </address>
+    <span class="oneFooterLayout_copy">Copyright © Personal Information Protection Commission. All right reserved.</span>
+</footer>
+
+    <div id="cmmnLoginPopup"  class="onePopup">
+          <div class="onePopup_content accredit" tabindex="0">
+              <div class="onePopup_head">
+                  <h3 class="oneT2">본인인증</h3>
+                  <a class="onePopup_close" href="javascript:void(0)"><i class="icon-close"></i><span class="skip">팝업닫기</span></a>
+              </div>
+              <div class="onePopup_body">
+                    <div class="oneAccreditAgree">
+                   		<div class="ac oneBottomXS"><strong class="text_blue">&lt; 개인정보 수집•이용에 관한 안내 &gt;</strong></div>
+                   		<p class="oneP oneBottomXS">개인정보보호위원회는 <span class="text_blue">개인정보 포털 신청 이력</span>에 대한 <span class="text_blue">통합내역 조회 서비스 제공</span>을 위해 아래와 같이 개인정보를 수집·이용하고자 합니다. 수집·이용 근거 : 「개인정보 보호법」 제15조 제1항 제4호</p>
+						<table class="oneTable oneBottomXS">
+							<caption>개인정보 수집·이용 동의 안내입니다. 항목(필수), 수집목적, 보유기간 정보가 포함되어 있습니다.</caption>
+							<colgroup>
+								<col width="33.33%">
+								<col width="33.33%">
+								<col width="33.33%">
+							</colgroup>
+							<thead>
+								<tr>
+									<th>항목(필수)</th>
+									<th>수집목적</th>
+									<th>보유기간</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td><span class="text_blue">성명, 생년월일, 중복가입확인정보(DI), 휴대폰번호</span></td>
+									<td>포털 서비스 이용내역 통합조회를 위한 본인확인</td>
+									<td><span class="text_blue">6개월(서비스 신청 시 연장될 수 있음)</span></td>
+								</tr>
+							</tbody>
+						</table>
+						<span class="oneCaution-warning">제공되는 인증방식 : 휴대폰, 아이핀, 공동인증서, 신용카드</span>
+						<div class="btnGroup ac">
+                  	  		<a class="btnL-blue" href="javascript:void(0)" onclick="$('.oneAccreditAgree').remove(); $('.oneAccredit').show();">확인</a>
+                  	  	</div>
+                  	  </div>
+                  <div class="oneAccredit">
+                      <p class="oneAccredit_text">
+                          개인정보 포털에서는 <strong>별도의 로그인 없이 본인인증으로 서비스를 이용</strong>하실 수 있습니다.<br />
+                          일부 서비스는 별도의 로그인 없이도 이용가능 하지만 로그인 시 신청내역 등과 같은 서비스를 받으실 수 있습니다.
+                      </p>
+                      <div class="oneAccreditIn list3">
+                          <ul class="oneAccredit_sns"><img src="/assets/img/main/main_lockstar.svg" alt="" style="width: 96%;"></ul>
+	                      <!-- <ul class="oneAccredit_sns" style="display:none;"> -->
+	                      <ul class="oneAccredit_sns" style="display: none;">
+	                          <li>
+	                              <a href="javascript:void(0)" onclick="$cmmnIdnttVrfct.startSnsLogin('kakao', 'BASIC');" title="새 창 열림">
+	                              	<svg class="oneAccredit_icon" xmlns="http://www.w3.org/2000/svg" width="28.018" height="24.779" viewBox="0 0 28.018 24.779">
+									  <g>
+									    <path d="M148.52,270c-7.735,0-14.007,4.743-14.007,10.6,0,3.763,2.6,7.061,6.5,8.947l-1.321,4.719a.383.383,0,0,0,.1.4.4.4,0,0,0,.53.021L146,291.018a18.392,18.392,0,0,0,2.521.177c7.737,0,14.011-4.743,14.011-10.6S156.257,270,148.52,270Zm-6.939,13.543a.794.794,0,0,1-.207.571.725.725,0,0,1-.553.214.766.766,0,0,1-.484-.155.717.717,0,0,1-.255-.428.822.822,0,0,1-.013-.2l0-4.922h-1.428a.941.941,0,0,1-.508-.135.563.563,0,0,1-.262-.384,1.282,1.282,0,0,1-.021-.147.579.579,0,0,1,.224-.486.891.891,0,0,1,.562-.176h4.367a.94.94,0,0,1,.507.135.569.569,0,0,1,.264.383.689.689,0,0,1,.01.144.6.6,0,0,1-.218.493.874.874,0,0,1-.558.173h-1.429Zm6.244.586a.7.7,0,0,1-.5.2.644.644,0,0,1-.679-.431l-.391-1.151H143.82l-.393,1.151a.631.631,0,0,1-.677.431.707.707,0,0,1-.447-.137.628.628,0,0,1-.232-.39.812.812,0,0,1-.014-.161.9.9,0,0,1,.041-.279c.03-.109.064-.219.1-.324l1.954-5.385a.678.678,0,0,1,.275-.369.884.884,0,0,1,.464-.111h.362a.955.955,0,0,1,.493.12.8.8,0,0,1,.314.458l1.824,5.288a3.091,3.091,0,0,1,.123.422,1.586,1.586,0,0,1,.028.182A.67.67,0,0,1,147.825,284.129Zm5.048-.1a.893.893,0,0,1-.563.173h-3.152a1.007,1.007,0,0,1-.568-.144.692.692,0,0,1-.285-.468,2.013,2.013,0,0,1-.034-.308l0-5.33a.788.788,0,0,1,.207-.568.725.725,0,0,1,.554-.217.75.75,0,0,1,.485.158.712.712,0,0,1,.252.427.748.748,0,0,1,.014.2v4.926h2.526a.912.912,0,0,1,.511.135.573.573,0,0,1,.256.384.944.944,0,0,1,.022.144A.584.584,0,0,1,152.873,284.032Zm5.906-.46a.692.692,0,0,1-.227.58.874.874,0,0,1-.55.176.75.75,0,0,1-.376-.082.982.982,0,0,1-.3-.327l-1.742-2.8-.829.864.007,1.564a.806.806,0,0,1-.208.571.726.726,0,0,1-.553.214.77.77,0,0,1-.485-.155.711.711,0,0,1-.254-.428.924.924,0,0,1-.013-.2l0-5.588a.794.794,0,0,1,.206-.568.729.729,0,0,1,.554-.217.749.749,0,0,1,.484.158.7.7,0,0,1,.253.427.748.748,0,0,1,.015.2l0,2.289,2.375-2.728a1.636,1.636,0,0,1,.287-.261.578.578,0,0,1,.315-.084.774.774,0,0,1,.453.141.565.565,0,0,1,.251.369c0,.006.006.026.012.058a.2.2,0,0,0,0,.064.606.606,0,0,1-.071.287,1.339,1.339,0,0,1-.18.253l-1.553,1.7,1.837,2.91.056.088a1.549,1.549,0,0,1,.217.44.355.355,0,0,1,.012.047A.2.2,0,0,0,158.778,283.572Z" transform="translate(-134.513 -270)" fill="#543500"/>
+									    <path d="M155.818,288.632l-1.062,2.665h2.11l-1.025-2.665Z" transform="translate(-145.239 -279.945)" fill="#543500"/>
+									  </g>
+									</svg>
+	                                  카카오 로그인
+	                                  <svg class="oneAccredit_arrow" xmlns="http://www.w3.org/2000/svg" width="17.791" height="4.475" viewBox="0 0 17.791 4.475">
+	                                      <path d="M-12295-20281.838h16.326l-4.631-3.578" transform="translate(12295 20285.813)" fill="none" stroke="#fff" stroke-width="1"></path>
+	                                  </svg>
+	                              </a>
+	                          </li>
+	                          <li>
+	                              <a href="javascript:void(0)" onclick="$cmmnIdnttVrfct.startSnsLogin('naver', 'BASIC');" title="새 창 열림">
+	                                  <svg class="oneAccredit_icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="30" height="30" viewBox="0 0 30 30">
+	                                      <defs>
+	                                        <clipPath>
+	                                          <rect  width="30" height="30" transform="translate(-17234 -13563)" fill="#fff" stroke="#707070" stroke-width="1"/>
+	                                        </clipPath>
+	                                      </defs>
+	                                      <g transform="translate(17234 13563)" clip-path="url(#clip-path)">
+	                                        <path d="M12.516,0V8.781L6.5,0H0V17.4H6.48V8.623L12.495,17.4h6.5V0Z" transform="translate(-17228 -13557)" fill="#1ec800"/>
+	                                      </g>
+	                                  </svg>
+	                                  네이버 로그인
+	                                  <svg class="oneAccredit_arrow" xmlns="http://www.w3.org/2000/svg" width="17.791" height="4.475" viewBox="0 0 17.791 4.475">
+	                                      <path d="M-12295-20281.838h16.326l-4.631-3.578" transform="translate(12295 20285.813)" fill="none" stroke="#fff" stroke-width="1"></path>
+	                                  </svg>
+	                              </a>
+	                          </li>
+	                          <li>
+	                              <a href="javascript:void(0)" onclick="$cmmnIdnttVrfct.startSnsLogin('google', 'BASIC');" title="새 창 열림">
+	                                  <svg class="oneAccredit_icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="30" height="30" viewBox="0 0 30 30">
+	                                      <defs>
+	                                        <clipPath>
+	                                          <rect width="30" height="30" transform="translate(-17235 -13563)" fill="#fff" stroke="#707070" stroke-width="1"/>
+	                                        </clipPath>
+	                                        <clipPath>
+	                                          <rect width="22.807" height="23.272" fill="none" stroke="rgba(0,0,0,0)" stroke-width="1"/>
+	                                        </clipPath>
+	                                      </defs>
+	                                      <g transform="translate(17235 13563)" clip-path="url(#clip-path)">
+	                                        <g transform="translate(-17231 -13560)">
+	                                          <g clip-path="url(#clip-path-2)">
+	                                            <path data-name="패스 50761" d="M117.32,89.23a13.364,13.364,0,0,0-.212-2.38H106.149v4.5h6.262a5.353,5.353,0,0,1-2.322,3.512v2.92h3.761a11.348,11.348,0,0,0,3.47-8.553" transform="translate(-94.513 -77.329)" fill="#3e82f1" stroke="rgba(0,0,0,0)" stroke-width="1" fill-rule="evenodd"/>
+	                                            <path data-name="패스 50762" d="M21.688,135.742a11.109,11.109,0,0,0,7.7-2.819L25.629,130a7.02,7.02,0,0,1-10.451-3.687H11.29v3.015a11.632,11.632,0,0,0,10.4,6.41" transform="translate(-10.052 -112.47)" fill="#32a753" stroke="rgba(0,0,0,0)" stroke-width="1" fill-rule="evenodd"/>
+	                                            <path data-name="패스 50763" d="M5.125,65.916a6.879,6.879,0,0,1,0-4.422V58.479H1.238a11.65,11.65,0,0,0,0,10.451Z" transform="translate(0 -52.068)" fill="#f9bb00" stroke="rgba(0,0,0,0)" stroke-width="1" fill-rule="evenodd"/>
+	                                            <path data-name="패스 50764" d="M21.688,4.629a6.286,6.286,0,0,1,4.448,1.74l3.337-3.337A11.182,11.182,0,0,0,21.688,0a11.632,11.632,0,0,0-10.4,6.41l3.888,3.015a6.935,6.935,0,0,1,6.511-4.8" transform="translate(-10.052 -0.001)" fill="#e74133" stroke="rgba(0,0,0,0)" stroke-width="1" fill-rule="evenodd"/>
+	                                          </g>
+	                                        </g>
+	                                      </g>
+	                                  </svg>
+	                                  구글 계정 로그인
+	                                  <svg class="oneAccredit_arrow" xmlns="http://www.w3.org/2000/svg" width="17.791" height="4.475" viewBox="0 0 17.791 4.475">
+	                                      <path d="M-12295-20281.838h16.326l-4.631-3.578" transform="translate(12295 20285.813)" fill="none" stroke="#fff" stroke-width="1"></path>
+	                                  </svg>
+	                              </a>
+	                          </li>
+	                          <li>
+	                              <a href="javascript:void(0)" onclick="$cmmnIdnttVrfct.callOnepassLogin();" title="새 창 열림">
+	                                  <svg class="oneAccredit_icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="30" height="30" viewBox="0 0 30 30">
+	                                      <defs>
+	                                        <clipPath>
+	                                          <rect width="30" height="30" transform="translate(-17065 -13552)" fill="#fff" stroke="#707070" stroke-width="1"/>
+	                                        </clipPath>
+	                                      </defs>
+	                                      <g transform="translate(17065 13552)" clip-path="url(#clip-path)">
+	                                        <path d="M402.057,790.625h3.658V788.8H400.23v5.483h1.828Zm0,13.065H400.23v5.487h5.485v-1.827h-3.658Zm10.256,3.084a.963.963,0,0,0-1.067.843,3.817,3.817,0,0,1-.568,1.383c-.038.059-.082.117-.125.176h2.207a5.1,5.1,0,0,0,.4-1.335A.962.962,0,0,0,412.313,806.774Zm-1.66-4.865a5.021,5.021,0,0,1,1.272-3.447.961.961,0,0,0-1.473-1.235h0a6.98,6.98,0,0,0-1.722,4.682c.007,1.328.27,2.453.261,3.255a1.94,1.94,0,0,1-.285,1.151,3,3,0,0,1-1.452.987.962.962,0,1,0,.712,1.787,4.866,4.866,0,0,0,2.33-1.692,3.85,3.85,0,0,0,.618-2.232C410.9,804.025,410.646,802.962,410.653,801.909Zm4.624-6.685a6.1,6.1,0,0,0-1.655.23.962.962,0,1,0,.52,1.852,4.193,4.193,0,0,1,1.135-.159,7,7,0,0,1,4.285,1.984c1.072.885,2.108,1.946,3.161,2.889v-2.627c-.613-.578-1.255-1.179-1.934-1.743A8.817,8.817,0,0,0,415.277,795.224Zm7.445-.292V788.8h-5.486v1.827H420.9v2.962a11.209,11.209,0,0,0-5.736-1.653,9.531,9.531,0,0,0-5.553,1.765,9.853,9.853,0,0,0-4.245,8.6,20.57,20.57,0,0,0,.223,2.882.962.962,0,1,0,1.905-.271,18.476,18.476,0,0,1-.2-2.611,7.9,7.9,0,0,1,3.431-7.027,7.593,7.593,0,0,1,4.443-1.413,9.609,9.609,0,0,1,6.248,2.479c.426.376.868.747,1.316,1.116v-2.521Zm-5.425,8.215a.962.962,0,0,0-1.516,1.183,34.232,34.232,0,0,0,3.207,3.484,19.9,19.9,0,0,0,1.611,1.363h2.124v-.889c-.106-.059-.214-.123-.325-.2A26.239,26.239,0,0,1,417.3,803.147Zm2.126-2.29a10.558,10.558,0,0,0-2.3-1.83,4.276,4.276,0,0,0-1.75-.409,3.029,3.029,0,0,0-2.513,1.305,4.611,4.611,0,0,0-.777,2.67,6.027,6.027,0,0,0,.207,1.548,13.817,13.817,0,0,0,3.15,5.035h2.716c-.086-.079-.172-.156-.256-.236a14.009,14.009,0,0,1-3.751-5.3,4.077,4.077,0,0,1-.141-1.05,2.719,2.719,0,0,1,.419-1.554,1.083,1.083,0,0,1,.946-.5,2.378,2.378,0,0,1,.964.241,10.8,10.8,0,0,1,1.765,1.473c.858.811,1.881,1.828,2.921,2.8.581.539,1.174,1.011,1.7,1.43v-2.487c-.131-.114-.262-.23-.388-.35C421.324,802.7,420.308,801.693,419.422,800.857Z" transform="translate(-17461.23 -14335.798)" fill="#1f3d7b"/>
+	                                      </g>
+	                                  </svg>
+	                                  디지털 원패스 로그인
+	                                  <svg class="oneAccredit_arrow" xmlns="http://www.w3.org/2000/svg" width="17.791" height="4.475" viewBox="0 0 17.791 4.475">
+	                                      <path d="M-12295-20281.838h16.326l-4.631-3.578" transform="translate(12295 20285.813)" fill="none" stroke="#fff" stroke-width="1"></path>
+	                                  </svg>
+	                              </a>
+	                          </li>
+	                          <li>
+	                              <a href="javascript:void(0)" onclick="$cmmnIdnttVrfct.startSnsLogin('facebook', 'BASIC');" title="새 창 열림">
+	                                  <svg class="oneAccredit_icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="30" height="30" viewBox="0 0 30 30">
+	                                      <defs>
+	                                        <clipPath>
+	                                          <rect width="30" height="30" transform="translate(-17234 -13563)" fill="#fff" stroke="#707070" stroke-width="1"/>
+	                                        </clipPath>
+	                                      </defs>
+	                                      <g transform="translate(17234 13563)" clip-path="url(#clip-path)">
+	                                        <path d="M87.643,22.553V12.279h3.508l.5-4.009H87.643V5.763c0-1.128.376-2,2-2h2.13V.125c-.5,0-1.754-.125-3.132-.125-3.007,0-5.137,1.879-5.137,5.262V8.269H80v4.009h3.508V22.553Z" transform="translate(-17305 -13559)" fill="#154dbc" fill-rule="evenodd"/>
+	                                      </g>
+	                                  </svg>
+	                                  Facebook 로그인
+	                                  <svg class="oneAccredit_arrow" xmlns="http://www.w3.org/2000/svg" width="17.791" height="4.475" viewBox="0 0 17.791 4.475">
+	                                      <path d="M-12295-20281.838h16.326l-4.631-3.578" transform="translate(12295 20285.813)" fill="none" stroke="#fff" stroke-width="1"></path>
+	                                  </svg>
+	                              </a>
+	                          </li>
+	                      </ul>
+	                      
+	                      <ul class="oneAccredit_list">
+	                          <li>
+	                              <a href="javascript:void(0)" onclick="$kcbIdnttVrfct.startAuthVrfct('Y', 'IDS', 'BASIC');" title="새 창 열림">
+	                                  <span>휴대폰</span>
+	                                  <svg class="oneAccredit_icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="60" height="60" viewBox="0 0 60 60">
+	                                      <defs>
+	                                        <clipPath>
+	                                          <rect width="60" height="60" transform="translate(-14903 -14530)" fill="#fff" stroke="#707070" stroke-width="1"/>
+	                                        </clipPath>
+	                                      </defs>
+	                                      <g transform="translate(14903 14530)" clip-path="url(#clip-path)">
+	                                        <g transform="translate(-14889 -14523)">
+	                                          <g>
+	                                            <g>
+	                                              <path d="M1,0H31.613a1,1,0,0,1,1,1V44.574a1,1,0,0,1-1,1H1a1,1,0,0,1-1-1V1A1,1,0,0,1,1,0Z" fill="none" stroke="#000" stroke-linecap="round" stroke-width="1.5"/>
+	                                              <rect width="32.576" height="27.942" transform="translate(0 6.002)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.5"/>
+	                                              <path d="M509.685,584.8a.809.809,0,1,1-.805-.727A.769.769,0,0,1,509.685,584.8Z" transform="translate(-493.11 -544.335)" fill="#fff" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+	                                            </g>
+	                                          </g>
+	                                          <g transform="translate(24.64 20.33)">
+	                                            <path d="M1040.821,716.861s-2.245,4.521-9.233,3.545v10.246c.182.594-.624,5.409,9.233,7.795,9.857-2.386,9.051-7.2,9.233-7.795V720.406C1043.066,721.382,1040.821,716.861,1040.821,716.861Z" transform="translate(-1031.588 -716.861)" fill="#ffffff" stroke="#0049be" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+	                                            <path d="M1038.321,730.476l3.159,2.851h0l4.831-4.361" transform="translate(-1032.54 -719.584)" fill="#ffffff" stroke="#0049be" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+	                                          </g>
+	                                        </g>
+	                                      </g>
+	                                  </svg>
+	                              </a>
+	                          </li>
+	                          <li>
+	                            <a href="javascript:void(0)" onclick="$kcbIdnttVrfct.startAuthVrfct('Y', 'TIS', 'BASIC');" title="새 창 열림">
+	                                  <span>아이핀</span>
+	                                  <svg class="oneAccredit_icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="60" height="60" viewBox="0 0 60 60">
+	                                      <defs>
+	                                        <clipPath>
+	                                          <rect width="60" height="60" transform="translate(-14960 -14519)" fill="#fff" stroke="#707070" stroke-width="1"/>
+	                                        </clipPath>
+	                                      </defs>
+	                                      <g transform="translate(14960 14519)" clip-path="url(#clip-path)">
+	                                        <g transform="translate(-138.316 16.035)">
+	                                          <g transform="translate(-14815.684 -14526.035)">
+	                                            <g>
+	                                              <path d="M534.67,1151.193c0-1.155-.371-1.49-.825-1.49H488.128c-.454,0-.825.335-.825,1.49v8.045H534.67Z" transform="translate(-487.303 -1149.703)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+	                                              <path d="M487.3,1162.5v32.031c0-.335.371,0,.825,0h45.716c.454,0,.825-.335.825,0V1162.5Z" transform="translate(-487.303 -1152.968)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.5"/>
+	                                            </g>
+	                                            <path d="M494.292,1156.31a.778.778,0,1,1-.774-.7A.739.739,0,0,1,494.292,1156.31Z" transform="translate(-488.254 -1151.21)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+	                                            <path d="M501.9,1156.31a.778.778,0,1,1-.773-.7A.739.739,0,0,1,501.9,1156.31Z" transform="translate(-489.583 -1151.21)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+	                                            <path d="M509.5,1156.31a.778.778,0,1,1-.773-.7A.739.739,0,0,1,509.5,1156.31Z" transform="translate(-490.913 -1151.21)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+	                                            <g transform="translate(15.55 15.69)">
+	                                              <g>
+	                                                <rect id="사각형_12086" data-name="사각형 12086" width="17.388" height="12.848" rx="1" transform="translate(0 5.9)" fill="none" stroke="#154fab" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+	                                                <path d="M511.578,1176.667v-2.1a4.023,4.023,0,0,1,4.212-3.8h0a4.023,4.023,0,0,1,4.212,3.8v2.1" transform="translate(-507.096 -1170.766)" fill="none" stroke="#154fab" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+	                                              </g>
+	                                              <path d="M517.332,1187.357a.83.83,0,1,1-.825-.745A.788.788,0,0,1,517.332,1187.357Z" transform="translate(-507.813 -1174.808)" fill="none" stroke="#154fab" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+	                                            </g>
+	                                          </g>
+	                                        </g>
+	                                      </g>
+	                                  </svg>
+	                              </a>
+	                          </li>
+	                          <li>
+		                          <a href="javascript:void(0)" onclick="$kcbIdnttVrfct.startAuthVrfct('Y', 'CRT', 'BASIC');" title="새 창 열림">
+		                              <span>공동인증서</span>
+		                              <svg class="oneAccredit_icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="67" height="60" viewBox="0 0 67 60">
+		                                  <defs>
+		                                    <clipPath>
+		                                      <rect width="67" height="60" transform="translate(-15049 -14524)" fill="#fff" stroke="#707070" stroke-width="1"/>
+		                                    </clipPath>
+		                                  </defs>
+		                                  <g transform="translate(15049 14524)" clip-path="url(#clip-path)">
+		                                    <g transform="translate(-15040 -14514)">
+		                                      <g>
+		                                        <path d="M1,0H39.866a1,1,0,0,1,1,1V26.843a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V1A1,1,0,0,1,1,0Z" transform="translate(4.642)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+		                                        <path d="M365.512,736.915l-4.573-8.56H320.073l-4.573,8.56a.72.72,0,0,0,.72,1h48.572A.72.72,0,0,0,365.512,736.915Z" transform="translate(-315.43 -701.512)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+		                                        <line x2="17.028" transform="translate(11.453 9.223)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+		                                        <line x2="8.514" transform="translate(11.453 15.371)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+		                                      </g>
+		                                      <g transform="translate(38.791 21.988)">
+		                                        <g>
+		                                          <g>
+		                                            <path d="M363.245,724.621V722.5a4.074,4.074,0,0,1,4.266-3.851h0a4.074,4.074,0,0,1,4.266,3.851v2.125" transform="translate(-358.705 -718.645)" fill="#fff" stroke="#0049be" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+		                                            <rect width="17.612" height="13.013" rx="1" transform="translate(0 5.976)" fill="#fff" stroke="#0049be" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+		                                          </g>
+		                                          <path d="M369.021,735.246a.84.84,0,1,1-.836-.754A.8.8,0,0,1,369.021,735.246Z" transform="translate(-359.379 -722.535)" fill="#fff" stroke="#0049be" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+		                                        </g>
+		                                      </g>
+		                                    </g>
+		                                  </g>
+		                              </svg>
+		                          </a>
+		                      </li>
+		                      <li>
+	                          <a href="javascript:void(0)" onclick="$kcbIdnttVrfct.startAuthVrfct('Y', 'CID', 'BASIC');" title="새 창 열림">
+		                              <span>신용카드</span>
+		                              <svg class="oneAccredit_icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="60" height="60" viewBox="0 0 60 60">
+		                                  <defs>
+		                                    <clipPath>
+		                                      <rect width="60" height="60" transform="translate(-15091 -14535)" fill="#fff" stroke="#707070" stroke-width="1"/>
+		                                    </clipPath>
+		                                  </defs>
+		                                  <g transform="translate(15091 14535)" clip-path="url(#clip-path)">
+		                                    <g transform="translate(-15084 -14523)">
+		                                      <g>
+		                                        <path d="M1036.2,696h-43a1.541,1.541,0,0,0-1.609,1.453V725.1a1.526,1.526,0,0,0,1.6,1.443h31.307l13.306-12.167V697.443A1.527,1.527,0,0,0,1036.2,696Z" transform="translate(-991.588 -696)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+		                                        <line x2="13.925" transform="translate(18.98 25.327)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+		                                        <line x2="9.077" transform="translate(4.951 25.327)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+		                                        <line x2="9.077" transform="translate(4.951 21.603)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+		                                        <g transform="translate(34.26 7.15)">
+		                                          <path d="M1033.182,706.038l1.013-.358a4.056,4.056,0,0,1,4.256,1.751,3.347,3.347,0,0,1-1.554,4.77,4.251,4.251,0,0,1-2.785.33,4.013,4.013,0,0,1-1.006-.361" transform="translate(-1033.105 -705.599)" fill="none" stroke="#0049be" stroke-miterlimit="10" stroke-width="1.5"/>
+		                                        </g>
+		                                        <g transform="translate(26.795 7.15)">
+		                                          <path d="M1031.374,707.431a3.346,3.346,0,0,1-1.555,4.77,4.118,4.118,0,0,1-5.284-1.4,3.347,3.347,0,0,1,1.555-4.77A4.119,4.119,0,0,1,1031.374,707.431Z" transform="translate(-1024.059 -705.598)" fill="none" stroke="#0049be" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+		                                        </g>
+		                                      </g>
+		                                      <g transform="translate(33.008 15.539)">
+		                                        <path d="M1040.461,716.861s-2.158,4.345-8.873,3.407v9.847c.175.571-.6,5.2,8.873,7.492,9.473-2.293,8.7-6.92,8.873-7.492v-9.847C1042.619,721.206,1040.461,716.861,1040.461,716.861Z" transform="translate(-1031.588 -716.861)" fill="#fff" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+		                                        <path d="M1038.321,730.418l3.036,2.74h0l4.643-4.191" transform="translate(-1032.765 -719.949)" fill="#fff" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+		                                      </g>
+		                                    </g>
+		                                  </g>
+		                              </svg>
+		                          </a>
+		                      </li>
+	                      </ul>
+                      </div>
+                      
+                      
+                      
+                      
+                      
+                  </div>
+                    <div class="useGuideBtnBox">
+                        <div class="useGuideBtn">
+                            <span>개인정보 포털이 처음이신가요?</span>
+                            <a href="javascript:void(0)" onclick="$cmmnIdnttVrfct.userGuide();" class="btnS-gray"><span>홈페이지 이용가이드</span><i class="icon-next"></i></a>
+                        </div>
+                    </div>
+              </div>
+          </div>
+      </div>
+      
+      <div id="addPersonCertPopup" class="onePopup">
+              <div class="onePopup_content" tabindex="0">
+                  <div class="onePopup_head">
+                      <h3 class="oneT2">추가 본인인증</h3>
+                      <a class="onePopup_close" href="javascript:void(0)"><i class="icon-close"></i><span class="skip">팝업 닫기</span></a>
+                  </div>
+                  <div class="onePopup_body">
+                      <div class="oneAccredit">
+                          <p class="oneAccredit_text"><strong>연동 안내 :</strong><span class="login_onePass"> 디지털원패스 및</span> SNS 인증을 한경우 <strong>1회에 한해서 추가 본인인증</strong>이 필요합니다.</p>
+                          <ul class="oneAccredit_list addAccredit">
+                              <li>
+                                <a href="javascript:void(0)" onclick="$kcbIdnttVrfct.startAuthVrfct('Y', 'IDS', 'BASIC');" title="새 창 열림">
+                                      <span>휴대폰</span>
+                                      <svg class="oneAccredit_icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="60" height="60" viewBox="0 0 60 60">
+                                          <defs>
+                                            <clipPath>
+                                              <rect width="60" height="60" transform="translate(-14903 -14530)" fill="#fff" stroke="#707070" stroke-width="1"/>
+                                            </clipPath>
+                                          </defs>
+                                          <g transform="translate(14903 14530)" clip-path="url(#clip-path)">
+                                            <g transform="translate(-14889 -14523)">
+                                              <g>
+                                                <g>
+                                                  <path d="M1,0H31.613a1,1,0,0,1,1,1V44.574a1,1,0,0,1-1,1H1a1,1,0,0,1-1-1V1A1,1,0,0,1,1,0Z" fill="none" stroke="#000" stroke-linecap="round" stroke-width="1.5"/>
+                                                  <rect width="32.576" height="27.942" transform="translate(0 6.002)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.5"/>
+                                                  <path d="M509.685,584.8a.809.809,0,1,1-.805-.727A.769.769,0,0,1,509.685,584.8Z" transform="translate(-493.11 -544.335)" fill="#fff" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+                                                </g>
+                                              </g>
+                                              <g transform="translate(24.64 20.33)">
+                                                <path d="M1040.821,716.861s-2.245,4.521-9.233,3.545v10.246c.182.594-.624,5.409,9.233,7.795,9.857-2.386,9.051-7.2,9.233-7.795V720.406C1043.066,721.382,1040.821,716.861,1040.821,716.861Z" transform="translate(-1031.588 -716.861)" fill="#ffffff" stroke="#0049be" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+                                                <path d="M1038.321,730.476l3.159,2.851h0l4.831-4.361" transform="translate(-1032.54 -719.584)" fill="#ffffff" stroke="#0049be" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+                                              </g>
+                                            </g>
+                                          </g>
+                                      </svg>
+                                  </a>
+                              </li>
+                              <li>
+                                <a href="javascript:void(0)" onclick="$kcbIdnttVrfct.startAuthVrfct('Y', 'TIS', 'BASIC');" title="새 창 열림">
+                                      <span>아이핀</span>
+                                      <svg class="oneAccredit_icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="60" height="60" viewBox="0 0 60 60">
+                                          <defs>
+                                            <clipPath>
+                                              <rect width="60" height="60" transform="translate(-14960 -14519)" fill="#fff" stroke="#707070" stroke-width="1"/>
+                                            </clipPath>
+                                          </defs>
+                                          <g transform="translate(14960 14519)" clip-path="url(#clip-path)">
+                                            <g transform="translate(-138.316 16.035)">
+                                              <g transform="translate(-14815.684 -14526.035)">
+                                                <g>
+                                                  <path d="M534.67,1151.193c0-1.155-.371-1.49-.825-1.49H488.128c-.454,0-.825.335-.825,1.49v8.045H534.67Z" transform="translate(-487.303 -1149.703)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+                                                  <path d="M487.3,1162.5v32.031c0-.335.371,0,.825,0h45.716c.454,0,.825-.335.825,0V1162.5Z" transform="translate(-487.303 -1152.968)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.5"/>
+                                                </g>
+                                                <path d="M494.292,1156.31a.778.778,0,1,1-.774-.7A.739.739,0,0,1,494.292,1156.31Z" transform="translate(-488.254 -1151.21)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+                                                <path d="M501.9,1156.31a.778.778,0,1,1-.773-.7A.739.739,0,0,1,501.9,1156.31Z" transform="translate(-489.583 -1151.21)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+                                                <path d="M509.5,1156.31a.778.778,0,1,1-.773-.7A.739.739,0,0,1,509.5,1156.31Z" transform="translate(-490.913 -1151.21)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+                                                <g transform="translate(15.55 15.69)">
+                                                  <g>
+                                                    <rect id="사각형_12086" data-name="사각형 12086" width="17.388" height="12.848" rx="1" transform="translate(0 5.9)" fill="none" stroke="#154fab" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+                                                    <path d="M511.578,1176.667v-2.1a4.023,4.023,0,0,1,4.212-3.8h0a4.023,4.023,0,0,1,4.212,3.8v2.1" transform="translate(-507.096 -1170.766)" fill="none" stroke="#154fab" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+                                                  </g>
+                                                  <path d="M517.332,1187.357a.83.83,0,1,1-.825-.745A.788.788,0,0,1,517.332,1187.357Z" transform="translate(-507.813 -1174.808)" fill="none" stroke="#154fab" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+                                                </g>
+                                              </g>
+                                            </g>
+                                          </g>
+                                      </svg>
+                                  </a>
+                              </li>
+                              <li>
+                                <a href="javascript:void(0)" onclick="$kcbIdnttVrfct.startAuthVrfct('Y', 'CRT', 'BASIC');" title="새 창 열림">
+                                      <span>공동인증서</span>
+                                      <svg class="oneAccredit_icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="67" height="60" viewBox="0 0 67 60">
+                                          <defs>
+                                            <clipPath>
+                                              <rect width="67" height="60" transform="translate(-15049 -14524)" fill="#fff" stroke="#707070" stroke-width="1"/>
+                                            </clipPath>
+                                          </defs>
+                                          <g transform="translate(15049 14524)" clip-path="url(#clip-path)">
+                                            <g transform="translate(-15040 -14514)">
+                                              <g>
+                                                <path d="M1,0H39.866a1,1,0,0,1,1,1V26.843a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V1A1,1,0,0,1,1,0Z" transform="translate(4.642)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+                                                <path d="M365.512,736.915l-4.573-8.56H320.073l-4.573,8.56a.72.72,0,0,0,.72,1h48.572A.72.72,0,0,0,365.512,736.915Z" transform="translate(-315.43 -701.512)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+                                                <line x2="17.028" transform="translate(11.453 9.223)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+                                                <line x2="8.514" transform="translate(11.453 15.371)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+                                              </g>
+                                              <g transform="translate(38.791 21.988)">
+                                                <g>
+                                                  <g>
+                                                    <path d="M363.245,724.621V722.5a4.074,4.074,0,0,1,4.266-3.851h0a4.074,4.074,0,0,1,4.266,3.851v2.125" transform="translate(-358.705 -718.645)" fill="#fff" stroke="#0049be" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+                                                    <rect width="17.612" height="13.013" rx="1" transform="translate(0 5.976)" fill="#fff" stroke="#0049be" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+                                                  </g>
+                                                  <path d="M369.021,735.246a.84.84,0,1,1-.836-.754A.8.8,0,0,1,369.021,735.246Z" transform="translate(-359.379 -722.535)" fill="#fff" stroke="#0049be" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+                                                </g>
+                                              </g>
+                                            </g>
+                                          </g>
+                                      </svg>
+                                  </a>
+                              </li>
+                              <li>
+                                <a href="javascript:void(0)" onclick="$kcbIdnttVrfct.startAuthVrfct('Y', 'CID', 'BASIC');" title="새 창 열림">
+                                      <span>신용카드</span>
+                                      <svg class="oneAccredit_icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="60" height="60" viewBox="0 0 60 60">
+                                          <defs>
+                                            <clipPath>
+                                              <rect width="60" height="60" transform="translate(-15091 -14535)" fill="#fff" stroke="#707070" stroke-width="1"/>
+                                            </clipPath>
+                                          </defs>
+                                          <g transform="translate(15091 14535)" clip-path="url(#clip-path)">
+                                            <g transform="translate(-15084 -14523)">
+                                              <g>
+                                                <path d="M1036.2,696h-43a1.541,1.541,0,0,0-1.609,1.453V725.1a1.526,1.526,0,0,0,1.6,1.443h31.307l13.306-12.167V697.443A1.527,1.527,0,0,0,1036.2,696Z" transform="translate(-991.588 -696)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+                                                <line x2="13.925" transform="translate(18.98 25.327)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+                                                <line x2="9.077" transform="translate(4.951 25.327)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+                                                <line x2="9.077" transform="translate(4.951 21.603)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+                                                <g transform="translate(34.26 7.15)">
+                                                  <path d="M1033.182,706.038l1.013-.358a4.056,4.056,0,0,1,4.256,1.751,3.347,3.347,0,0,1-1.554,4.77,4.251,4.251,0,0,1-2.785.33,4.013,4.013,0,0,1-1.006-.361" transform="translate(-1033.105 -705.599)" fill="none" stroke="#0049be" stroke-miterlimit="10" stroke-width="1.5"/>
+                                                </g>
+                                                <g transform="translate(26.795 7.15)">
+                                                  <path d="M1031.374,707.431a3.346,3.346,0,0,1-1.555,4.77,4.118,4.118,0,0,1-5.284-1.4,3.347,3.347,0,0,1,1.555-4.77A4.119,4.119,0,0,1,1031.374,707.431Z" transform="translate(-1024.059 -705.598)" fill="none" stroke="#0049be" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+                                                </g>
+                                              </g>
+                                              <g transform="translate(33.008 15.539)">
+                                                <path d="M1040.461,716.861s-2.158,4.345-8.873,3.407v9.847c.175.571-.6,5.2,8.873,7.492,9.473-2.293,8.7-6.92,8.873-7.492v-9.847C1042.619,721.206,1040.461,716.861,1040.461,716.861Z" transform="translate(-1031.588 -716.861)" fill="#fff" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+                                                <path d="M1038.321,730.418l3.036,2.74h0l4.643-4.191" transform="translate(-1032.765 -719.949)" fill="#fff" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+                                              </g>
+                                            </g>
+                                          </g>
+                                      </svg>
+                                  </a>
+                              </li>
+                          </ul>
+                      </div>
+                      <div class="useGuideBtnBox">
+	                      <div class="useGuideBtn">
+		                      <span>개인정보 포털이 처음이신가요?</span>
+		                      <a href="javascript:void(0)" onclick="$cmmnIdnttVrfct.userGuide();" class="btnS-gray">홈페이지 이용가이드</a>
+	                      </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          
+          
+          <div id="beforeLoginPopup"  class="onePopup">
+          <div class="onePopup_content accredit">
+              <div class="onePopup_head">
+                  <h3 class="oneT2">본인인증</h3>
+                  <a class="onePopup_close" href="javascript:void(0)"><i class="icon-close"></i></a>
+              </div>
+              <div class="onePopup_body">
+                    <div class="oneAccreditAgree">
+                        <div class="ac oneBottomXS"><strong class="text_blue">&lt; 개인정보 수집·이용 동의 &gt;</strong></div>
+                        <p class="oneP oneBottomXS">개인정보보호위원회는 <span class="text_blue">개인정보 포털 신청 이력</span>에 대한 <span class="text_blue">통합내역 조회 서비스 제공</span>을 위해 아래와 같이 개인정보를 수집·이용하고자 합니다. 수집·이용 근거 : 「개인정보 보호법」 제15조 제1항 제4호</p>
+                        <table class="oneTable oneBottomXS">
+                        	<caption>개인정보 수집·이용 동의 안내입니다. 항목(필수), 수집목적, 보유기간 정보가 포함되어 있습니다.</caption>
+                            <colgroup>
+                                <col width="33.33%">
+                                <col width="33.33%">
+                                <col width="33.33%">
+                            </colgroup>
+                            <thead>
+                                <tr>
+                                    <th>항목(필수)</th>
+                                    <th>수집목적</th>
+                                    <th>보유기간</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><span class="text_blue">성명, 생년월일, 중복가입확인정보(DI), 휴대폰번호</span></td>
+                                    <td>포털 서비스 이용내역 통합조회를 위한 본인확인</td>
+                                    <td><span class="text_blue">6개월(서비스 신청 시 연장될 수 있음)</span></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <span class="oneCaution-warning">제공되는 인증방식 : 휴대폰, 아이핀, 공동인증서, 신용카드</span>
+                        <div class="btnGroup ac">
+                            <a class="btnL-blue" href="javascript:void(0)" onclick="$('.oneAccreditAgree').remove(); $('.oneAccredit').show();">동의</a>
+                        </div>
+                      </div>
+                  <div class="oneAccredit">
+                      <p class="oneAccredit_text">
+                          개인정보 포털에서는 <strong>별도의 로그인 없이 본인인증으로 서비스를 이용</strong>하실 수 있습니다.<br />
+                          일부 서비스는 별도의 로그인 없이도 이용가능 하지만 로그인 시 신청내역 등과 같은 서비스를 받으실 수 있습니다.
+                      </p>
+                      <div class="oneAccreditIn list4">
+                          <ul class="oneAccredit_list addAccredit">
+                              <li>
+                                  <a href="javascript:void(0)" onclick="$kcbIdnttVrfct.startAuthVrfct('Y', 'IDS', 'BASIC');">
+                                      <span>휴대폰</span>
+                                      <svg class="oneAccredit_icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="60" height="60" viewBox="0 0 60 60">
+                                          <defs>
+                                            <clipPath>
+                                              <rect width="60" height="60" transform="translate(-14903 -14530)" fill="#fff" stroke="#707070" stroke-width="1"/>
+                                            </clipPath>
+                                          </defs>
+                                          <g transform="translate(14903 14530)" clip-path="url(#clip-path)">
+                                            <g transform="translate(-14889 -14523)">
+                                              <g>
+                                                <g>
+                                                  <path d="M1,0H31.613a1,1,0,0,1,1,1V44.574a1,1,0,0,1-1,1H1a1,1,0,0,1-1-1V1A1,1,0,0,1,1,0Z" fill="none" stroke="#000" stroke-linecap="round" stroke-width="1.5"/>
+                                                  <rect width="32.576" height="27.942" transform="translate(0 6.002)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.5"/>
+                                                  <path d="M509.685,584.8a.809.809,0,1,1-.805-.727A.769.769,0,0,1,509.685,584.8Z" transform="translate(-493.11 -544.335)" fill="#fff" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+                                                </g>
+                                              </g>
+                                              <g transform="translate(24.64 20.33)">
+                                                <path d="M1040.821,716.861s-2.245,4.521-9.233,3.545v10.246c.182.594-.624,5.409,9.233,7.795,9.857-2.386,9.051-7.2,9.233-7.795V720.406C1043.066,721.382,1040.821,716.861,1040.821,716.861Z" transform="translate(-1031.588 -716.861)" fill="#ffffff" stroke="#0049be" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+                                                <path d="M1038.321,730.476l3.159,2.851h0l4.831-4.361" transform="translate(-1032.54 -719.584)" fill="#ffffff" stroke="#0049be" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+                                              </g>
+                                            </g>
+                                          </g>
+                                      </svg>
+                                  </a>
+                              </li>
+                              <li>
+                                <a href="javascript:void(0)" onclick="$kcbIdnttVrfct.startAuthVrfct('Y', 'TIS', 'BASIC');">
+                                      <span>아이핀</span>
+                                      <svg class="oneAccredit_icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="60" height="60" viewBox="0 0 60 60">
+                                          <defs>
+                                            <clipPath>
+                                              <rect width="60" height="60" transform="translate(-14960 -14519)" fill="#fff" stroke="#707070" stroke-width="1"/>
+                                            </clipPath>
+                                          </defs>
+                                          <g transform="translate(14960 14519)" clip-path="url(#clip-path)">
+                                            <g transform="translate(-138.316 16.035)">
+                                              <g transform="translate(-14815.684 -14526.035)">
+                                                <g>
+                                                  <path d="M534.67,1151.193c0-1.155-.371-1.49-.825-1.49H488.128c-.454,0-.825.335-.825,1.49v8.045H534.67Z" transform="translate(-487.303 -1149.703)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+                                                  <path d="M487.3,1162.5v32.031c0-.335.371,0,.825,0h45.716c.454,0,.825-.335.825,0V1162.5Z" transform="translate(-487.303 -1152.968)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.5"/>
+                                                </g>
+                                                <path d="M494.292,1156.31a.778.778,0,1,1-.774-.7A.739.739,0,0,1,494.292,1156.31Z" transform="translate(-488.254 -1151.21)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+                                                <path d="M501.9,1156.31a.778.778,0,1,1-.773-.7A.739.739,0,0,1,501.9,1156.31Z" transform="translate(-489.583 -1151.21)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+                                                <path d="M509.5,1156.31a.778.778,0,1,1-.773-.7A.739.739,0,0,1,509.5,1156.31Z" transform="translate(-490.913 -1151.21)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+                                                <g transform="translate(15.55 15.69)">
+                                                  <g>
+                                                    <rect id="사각형_12086" data-name="사각형 12086" width="17.388" height="12.848" rx="1" transform="translate(0 5.9)" fill="none" stroke="#154fab" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+                                                    <path d="M511.578,1176.667v-2.1a4.023,4.023,0,0,1,4.212-3.8h0a4.023,4.023,0,0,1,4.212,3.8v2.1" transform="translate(-507.096 -1170.766)" fill="none" stroke="#154fab" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+                                                  </g>
+                                                  <path d="M517.332,1187.357a.83.83,0,1,1-.825-.745A.788.788,0,0,1,517.332,1187.357Z" transform="translate(-507.813 -1174.808)" fill="none" stroke="#154fab" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+                                                </g>
+                                              </g>
+                                            </g>
+                                          </g>
+                                      </svg>
+                                  </a>
+                              </li>
+                              <li>
+                                  <a href="javascript:void(0)" onclick="$kcbIdnttVrfct.startAuthVrfct('Y', 'CRT', 'BASIC');">
+                                      <span>공동인증서</span>
+                                      <svg class="oneAccredit_icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="67" height="60" viewBox="0 0 67 60">
+                                          <defs>
+                                            <clipPath>
+                                              <rect width="67" height="60" transform="translate(-15049 -14524)" fill="#fff" stroke="#707070" stroke-width="1"/>
+                                            </clipPath>
+                                          </defs>
+                                          <g transform="translate(15049 14524)" clip-path="url(#clip-path)">
+                                            <g transform="translate(-15040 -14514)">
+                                              <g>
+                                                <path d="M1,0H39.866a1,1,0,0,1,1,1V26.843a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V1A1,1,0,0,1,1,0Z" transform="translate(4.642)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+                                                <path d="M365.512,736.915l-4.573-8.56H320.073l-4.573,8.56a.72.72,0,0,0,.72,1h48.572A.72.72,0,0,0,365.512,736.915Z" transform="translate(-315.43 -701.512)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+                                                <line x2="17.028" transform="translate(11.453 9.223)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+                                                <line x2="8.514" transform="translate(11.453 15.371)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+                                              </g>
+                                              <g transform="translate(38.791 21.988)">
+                                                <g>
+                                                  <g>
+                                                    <path d="M363.245,724.621V722.5a4.074,4.074,0,0,1,4.266-3.851h0a4.074,4.074,0,0,1,4.266,3.851v2.125" transform="translate(-358.705 -718.645)" fill="#fff" stroke="#0049be" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+                                                    <rect width="17.612" height="13.013" rx="1" transform="translate(0 5.976)" fill="#fff" stroke="#0049be" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+                                                  </g>
+                                                  <path d="M369.021,735.246a.84.84,0,1,1-.836-.754A.8.8,0,0,1,369.021,735.246Z" transform="translate(-359.379 -722.535)" fill="#fff" stroke="#0049be" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+                                                </g>
+                                              </g>
+                                            </g>
+                                          </g>
+                                      </svg>
+                                  </a>
+                              </li>
+                              <li>
+                              <a href="javascript:void(0)" onclick="$kcbIdnttVrfct.startAuthVrfct('Y', 'CID', 'BASIC');">
+                                      <span>신용카드</span>
+                                      <svg class="oneAccredit_icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="60" height="60" viewBox="0 0 60 60">
+                                          <defs>
+                                            <clipPath>
+                                              <rect width="60" height="60" transform="translate(-15091 -14535)" fill="#fff" stroke="#707070" stroke-width="1"/>
+                                            </clipPath>
+                                          </defs>
+                                          <g transform="translate(15091 14535)" clip-path="url(#clip-path)">
+                                            <g transform="translate(-15084 -14523)">
+                                              <g>
+                                                <path d="M1036.2,696h-43a1.541,1.541,0,0,0-1.609,1.453V725.1a1.526,1.526,0,0,0,1.6,1.443h31.307l13.306-12.167V697.443A1.527,1.527,0,0,0,1036.2,696Z" transform="translate(-991.588 -696)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+                                                <line x2="13.925" transform="translate(18.98 25.327)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+                                                <line x2="9.077" transform="translate(4.951 25.327)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+                                                <line x2="9.077" transform="translate(4.951 21.603)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+                                                <g transform="translate(34.26 7.15)">
+                                                  <path d="M1033.182,706.038l1.013-.358a4.056,4.056,0,0,1,4.256,1.751,3.347,3.347,0,0,1-1.554,4.77,4.251,4.251,0,0,1-2.785.33,4.013,4.013,0,0,1-1.006-.361" transform="translate(-1033.105 -705.599)" fill="none" stroke="#0049be" stroke-miterlimit="10" stroke-width="1.5"/>
+                                                </g>
+                                                <g transform="translate(26.795 7.15)">
+                                                  <path d="M1031.374,707.431a3.346,3.346,0,0,1-1.555,4.77,4.118,4.118,0,0,1-5.284-1.4,3.347,3.347,0,0,1,1.555-4.77A4.119,4.119,0,0,1,1031.374,707.431Z" transform="translate(-1024.059 -705.598)" fill="none" stroke="#0049be" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+                                                </g>
+                                              </g>
+                                              <g transform="translate(33.008 15.539)">
+                                                <path d="M1040.461,716.861s-2.158,4.345-8.873,3.407v9.847c.175.571-.6,5.2,8.873,7.492,9.473-2.293,8.7-6.92,8.873-7.492v-9.847C1042.619,721.206,1040.461,716.861,1040.461,716.861Z" transform="translate(-1031.588 -716.861)" fill="#fff" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+                                                <path d="M1038.321,730.418l3.036,2.74h0l4.643-4.191" transform="translate(-1032.765 -719.949)" fill="#fff" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+                                              </g>
+                                            </g>
+                                          </g>
+                                      </svg>
+                                  </a>
+                              </li>
+                          </ul>
+                      </div>
+                  </div>
+                    <div class="useGuideBtnBox">
+                        <div class="useGuideBtn">
+                            <span>개인정보 포털이 처음이신가요?</span>
+                            <a href="javascript:void(0)" onclick="$cmmnIdnttVrfct.userGuide();" class="btnS-gray"><span>홈페이지 이용가이드</span><i class="icon-next"></i></a>
+                        </div>
+                    </div>
+              </div>
+          </div>
+      </div>
+      
+      
+      <div id="underageLoginPopup" class="onePopup">
+      <script>
+        function startAuthVrfct(agree,requestType, authType){
+          if($("input:checkbox[id='underageChk']").is(":checked") == false){
+            alert('개인정보 수집·이용 동의하셔야 합니다.');
+            return;
+          }else{
+            $kcbIdnttVrfct.startAuthVrfct('Y', requestType, authType);
+          }
+        }
+      </script>
+         <div class="onePopup_content">
+             <div class="onePopup_head">
+                 <h3 class="oneT2">본인인증(만 14세 미만 법정대리인 동의)</h3>
+                 <a class="onePopup_close" href="#none"><i class="icon-close"></i></a>
+             </div>
+             <div class="onePopup_body">
+                 <div class="onePopup_body">
+                     <div class="oneAccredit deputy">
+                         <span class="oneCaution oneBottomS">만 14세 미만의 회원은 법정대리인(보호자)의 동의 절차(최초 1회)를 거쳐야 서비스 이용이 가능합니다.</span>
+                         <div class="oneAgree oneBottomS on">
+                             <div class="oneAgreeIn">
+                                 <ul class="oneAgreeList">
+                                     <li>
+                                         원하시는 본인인증 방법을 선택해 주세요.
+                                         <ul>
+                                             <li>수집항목 : 성명, 생년월일</li>
+                                             <li>수집목적 : 미성년자의 교육서비스를 위한 법정대리인 동의여부 확인</li>
+                                             <li>보유기간 : 2년</li>
+                                             <li>신청인의 개인정보 수집 및 이용에 동의합니다.</li>
+                                             <li>법정대리인의 개인정보 수집 및 이용에 동의합니다.</li>
+                                             <li>미성년자가 법적대리인 동의를 하는 경우, 서비스 이용 불가 ("미성년자는 법적대리인이 될 수 없습니다.") 서비스 이용을 위해 로그인 시, 다시 법적대리인 동의여부 확인</li>
+                                         </ul>
+                                     </li>
+                                 </ul>
+                             </div>    
+                             <label class="oneField">
+                                 <input type="checkbox" id="underageChk">
+                                 <span>개인정보 수집·이용 동의</span>
+                             </label>
+                             <a href="#none"><i class="icon-up"></i></a>
+                         </div>
+                         <ul class="oneAccredit_list addAccredit">
+                             <li>
+                                 <a href="javascript:void(0)" onclick="startAuthVrfct('Y', 'IDS', 'COURT');">
+                                     <span>휴대폰</span>
+                                     <svg class="oneAccredit_icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="60" height="60" viewBox="0 0 60 60">
+                                         <defs>
+                                             <clipPath>
+                                                 <rect width="60" height="60" transform="translate(-14903 -14530)" fill="#fff" stroke="#707070" stroke-width="1"/>
+                                             </clipPath>
+                                         </defs>
+                                         <g transform="translate(14903 14530)" clip-path="url(#clip-path)">
+                                             <g transform="translate(-14889 -14523)">
+                                                 <g>
+                                                 <g>
+                                                     <path d="M1,0H31.613a1,1,0,0,1,1,1V44.574a1,1,0,0,1-1,1H1a1,1,0,0,1-1-1V1A1,1,0,0,1,1,0Z" fill="none" stroke="#000" stroke-linecap="round" stroke-width="1.5"/>
+                                                     <rect width="32.576" height="27.942" transform="translate(0 6.002)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.5"/>
+                                                     <path d="M509.685,584.8a.809.809,0,1,1-.805-.727A.769.769,0,0,1,509.685,584.8Z" transform="translate(-493.11 -544.335)" fill="#fff" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+                                                 </g>
+                                                 </g>
+                                                 <g transform="translate(24.64 20.33)">
+                                                     <path d="M1040.821,716.861s-2.245,4.521-9.233,3.545v10.246c.182.594-.624,5.409,9.233,7.795,9.857-2.386,9.051-7.2,9.233-7.795V720.406C1043.066,721.382,1040.821,716.861,1040.821,716.861Z" transform="translate(-1031.588 -716.861)" fill="#ffffff" stroke="#0049be" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+                                                     <path d="M1038.321,730.476l3.159,2.851h0l4.831-4.361" transform="translate(-1032.54 -719.584)" fill="#ffffff" stroke="#0049be" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+                                                 </g>
+                                             </g>
+                                         </g>
+                                     </svg>
+                                 </a>
+                             </li>
+                             <li>
+                                 <a href="javascript:void(0)" onclick="startAuthVrfct('Y', 'TIS', 'COURT');">
+                                     <span>아이핀</span>
+                                     <svg class="oneAccredit_icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="60" height="60" viewBox="0 0 60 60">
+                                         <defs>
+                                             <clipPath>
+                                                 <rect width="60" height="60" transform="translate(-14960 -14519)" fill="#fff" stroke="#707070" stroke-width="1"/>
+                                             </clipPath>
+                                         </defs>
+                                         <g transform="translate(14960 14519)" clip-path="url(#clip-path)">
+                                             <g transform="translate(-138.316 16.035)">
+                                                 <g transform="translate(-14815.684 -14526.035)">
+                                                 <g>
+                                                     <path d="M534.67,1151.193c0-1.155-.371-1.49-.825-1.49H488.128c-.454,0-.825.335-.825,1.49v8.045H534.67Z" transform="translate(-487.303 -1149.703)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+                                                     <path d="M487.3,1162.5v32.031c0-.335.371,0,.825,0h45.716c.454,0,.825-.335.825,0V1162.5Z" transform="translate(-487.303 -1152.968)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.5"/>
+                                                 </g>
+                                                 <path d="M494.292,1156.31a.778.778,0,1,1-.774-.7A.739.739,0,0,1,494.292,1156.31Z" transform="translate(-488.254 -1151.21)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+                                                 <path d="M501.9,1156.31a.778.778,0,1,1-.773-.7A.739.739,0,0,1,501.9,1156.31Z" transform="translate(-489.583 -1151.21)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+                                                 <path d="M509.5,1156.31a.778.778,0,1,1-.773-.7A.739.739,0,0,1,509.5,1156.31Z" transform="translate(-490.913 -1151.21)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+                                                 <g transform="translate(15.55 15.69)">
+                                                     <g>
+                                                         <rect id="사각형_12086" data-name="사각형 12086" width="17.388" height="12.848" rx="1" transform="translate(0 5.9)" fill="none" stroke="#154fab" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+                                                         <path d="M511.578,1176.667v-2.1a4.023,4.023,0,0,1,4.212-3.8h0a4.023,4.023,0,0,1,4.212,3.8v2.1" transform="translate(-507.096 -1170.766)" fill="none" stroke="#154fab" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+                                                     </g>
+                                                     <path d="M517.332,1187.357a.83.83,0,1,1-.825-.745A.788.788,0,0,1,517.332,1187.357Z" transform="translate(-507.813 -1174.808)" fill="none" stroke="#154fab" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+                                                 </g>
+                                                 </g>
+                                             </g>
+                                         </g>
+                                     </svg>
+                                 </a>
+                             </li>
+                             <li>
+                                 <a href="javascript:void(0)" onclick="startAuthVrfct('Y', 'CRT', 'COURT');">
+                                     <span>공동인증서</span>
+                                     <svg class="oneAccredit_icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="67" height="60" viewBox="0 0 67 60">
+                                         <defs>
+                                             <clipPath>
+                                                 <rect width="67" height="60" transform="translate(-15049 -14524)" fill="#fff" stroke="#707070" stroke-width="1"/>
+                                             </clipPath>
+                                         </defs>
+                                         <g transform="translate(15049 14524)" clip-path="url(#clip-path)">
+                                             <g transform="translate(-15040 -14514)">
+                                                 <g>
+                                                     <path d="M1,0H39.866a1,1,0,0,1,1,1V26.843a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V1A1,1,0,0,1,1,0Z" transform="translate(4.642)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+                                                     <path d="M365.512,736.915l-4.573-8.56H320.073l-4.573,8.56a.72.72,0,0,0,.72,1h48.572A.72.72,0,0,0,365.512,736.915Z" transform="translate(-315.43 -701.512)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+                                                     <line x2="17.028" transform="translate(11.453 9.223)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+                                                     <line x2="8.514" transform="translate(11.453 15.371)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+                                                 </g>
+                                                 <g transform="translate(38.791 21.988)">
+                                                 <g>
+                                                     <g>
+                                                         <path d="M363.245,724.621V722.5a4.074,4.074,0,0,1,4.266-3.851h0a4.074,4.074,0,0,1,4.266,3.851v2.125" transform="translate(-358.705 -718.645)" fill="#fff" stroke="#0049be" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+                                                         <rect width="17.612" height="13.013" rx="1" transform="translate(0 5.976)" fill="#fff" stroke="#0049be" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+                                                     </g>
+                                                     <path d="M369.021,735.246a.84.84,0,1,1-.836-.754A.8.8,0,0,1,369.021,735.246Z" transform="translate(-359.379 -722.535)" fill="#fff" stroke="#0049be" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+                                                 </g>
+                                                 </g>
+                                             </g>
+                                         </g>
+                                     </svg>
+                                 </a>
+                             </li>
+                             <li>
+                                 <a href="javascript:void(0)" onclick="startAuthVrfct('Y', 'CID', 'COURT');">
+                                     <span>신용카드</span>
+                                     <svg class="oneAccredit_icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="60" height="60" viewBox="0 0 60 60">
+                                         <defs>
+                                             <clipPath>
+                                                 <rect width="60" height="60" transform="translate(-15091 -14535)" fill="#fff" stroke="#707070" stroke-width="1"/>
+                                             </clipPath>
+                                         </defs>
+                                         <g transform="translate(15091 14535)" clip-path="url(#clip-path)">
+                                             <g transform="translate(-15084 -14523)">
+                                                 <g>
+                                                     <path d="M1036.2,696h-43a1.541,1.541,0,0,0-1.609,1.453V725.1a1.526,1.526,0,0,0,1.6,1.443h31.307l13.306-12.167V697.443A1.527,1.527,0,0,0,1036.2,696Z" transform="translate(-991.588 -696)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+                                                     <line x2="13.925" transform="translate(18.98 25.327)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+                                                     <line x2="9.077" transform="translate(4.951 25.327)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+                                                     <line x2="9.077" transform="translate(4.951 21.603)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+                                                     <g transform="translate(34.26 7.15)">
+                                                         <path d="M1033.182,706.038l1.013-.358a4.056,4.056,0,0,1,4.256,1.751,3.347,3.347,0,0,1-1.554,4.77,4.251,4.251,0,0,1-2.785.33,4.013,4.013,0,0,1-1.006-.361" transform="translate(-1033.105 -705.599)" fill="none" stroke="#0049be" stroke-miterlimit="10" stroke-width="1.5"/>
+                                                     </g>
+                                                     <g transform="translate(26.795 7.15)">
+                                                         <path d="M1031.374,707.431a3.346,3.346,0,0,1-1.555,4.77,4.118,4.118,0,0,1-5.284-1.4,3.347,3.347,0,0,1,1.555-4.77A4.119,4.119,0,0,1,1031.374,707.431Z" transform="translate(-1024.059 -705.598)" fill="none" stroke="#0049be" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+                                                     </g>
+                                                 </g>
+                                                 <g transform="translate(33.008 15.539)">
+                                                     <path d="M1040.461,716.861s-2.158,4.345-8.873,3.407v9.847c.175.571-.6,5.2,8.873,7.492,9.473-2.293,8.7-6.92,8.873-7.492v-9.847C1042.619,721.206,1040.461,716.861,1040.461,716.861Z" transform="translate(-1031.588 -716.861)" fill="#fff" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+                                                     <path d="M1038.321,730.418l3.036,2.74h0l4.643-4.191" transform="translate(-1032.765 -719.949)" fill="#fff" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+                                                 </g>
+                                             </g>
+                                         </g>
+                                     </svg>
+                                 </a>
+                             </li>
+                         </ul>
+                     </div>
+                     <div class="useGuideBtnBox">
+                         <div class="useGuideBtn">
+                             <span>개인정보 포털이 처음이신가요?</span>
+                             <a href="#none" onclick="$cmmnIdnttVrfct.userGuide();" class="btnS-gray"><span>홈페이지 이용가이드</span><i class="icon-next"></i></a>
+                         </div>
+                     </div>
+                 </div>
+             </div>
+         </div>
+     </div>
+                
+    <form id="onepassForm" name="onepassForm" method="post">
+        <input type="hidden" id="serviceType" name="serviceType"/>
+    </form>
+    <form id="cntntsForm" name="cntntsForm" method="post">
+        <input type="hidden" id="contsNo" name="contsNo" value="326"/>
+        <input type="hidden" id="bmarkMenuNo" name="bmarkMenuNo"/>
+        <input type="hidden" id="bmarkUrl" name="bmarkUrl"/>
+        <input type="hidden" id="bmarkNm" name="bmarkNm" value=""/>
+    </form>
+    
+    
+    <form id="cmmnIdnttVrfctForm" name="cmmnIdnttVrfctForm" method="post">
+        <input type="hidden" id="idnttAuthType" name="idnttAuthType" />
+        <input type="hidden" id="idnttRtnUrl" name="idnttRtnUrl" value="/front/contents/cntntsView.do" />
+    </form>
+    <form id="kcbIdnttVrfctForm" name="kcbIdnttVrfctForm" method="post">
+        <input type="hidden" id="comCi" name="comCi" value="" />
+    </form>
+
+
+<iframe name="down_hidden_frame" title="파일 다운로드 임시프레임" width="0" height="0" style="border:none;"></iframe>
+ 
+</div>
+<!-- end :  내용 -->
 </body>
 </html>
